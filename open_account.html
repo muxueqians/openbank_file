@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="css/open_account.css" />
+</head>
+<body>
+   <div class="box">
+    <div class="interior">
+        <div class="content">
+            <div class="header">
+                <div class="header_content">
+                    <div class="hcl">
+                        <span class="open_bank">企业开户</span>
+                        <i>＞</i>
+                        <span class="material">开户材料</span>
+                    </div>
+                    <div class="hcr">
+                        <a href="index1.html"><img src="img/return_key.png"/></a>
+                        <i class="linellae"></i>
+                        <span class="timed">
+                               <em id="timesd">180</em>
+                               <i class="second_icon">s</i>
+                           </span>
+                    </div>
+                </div>
+            </div>
+            <div class="main">
+                <form action="/api/openbank" method="post" >
+                    <div class="main_content">
+                        <div class="main_title">企业信息</div>
+                        <div class="main_top">
+                            <div class="main_topc">
+                                <div class="main_topt">
+                                    <div class="main_toptt">
+                                        <div class="matoptl">
+                                            <label for="companyName">企业名称：</label>
+                                            <input type=" text" id="companyName" placeholder="请输入企业名称"/>
+                                        </div>
+                                        <div class="matoptr">
+                                            <label for="registerAd">注册地址：</label>
+                                            <input type=" text" id="registerAd" placeholder="请输入注册地址"/>
+                                        </div>
+                                    </div>
+                                    <div class="main_toptb">
+                                        <div class="matoptbl">
+                                            <label for="contactPhone">联系电话：</label>
+                                            <input type=" text" id="contactPhone" placeholder="请输入您的联系电话"/>
+                                        </div>
+                                        <div class="matoptbm">
+                                            <label for="realName">法人姓名：</label>
+                                            <input type=" text" id="realName" placeholder="请输入法人的姓名"/>
+                                        </div>
+                                        <div class="matoptbb">
+                                            <label for="cardNo">法人身份证号：</label>
+                                            <input type=" text" id="cardNo" placeholder="请输入法人身份证号"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--对账相关-->
+                        <div class="main_title">对账相关</div>
+                        <div class="main_middle">
+                            <div class="main_middlec">
+                                <div class="main_middlet">
+                                    <div class="main_middletl">
+                                        <label class="realChecktype">对账方式：</label>
+                                        <input type="radio" name="Rad" value="paper_reconciliation" ><span>纸质对账</span>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="radio" name="Rad" value="electronic_check" ><span>电子对账</span>
+                                    </div>
+                                    <div class="main_middletr">
+                                        <label class="zDMethods">对账单送达方式：</label>
+                                        <input type="radio" name="Radm" value="entrust_courier" ><span>委托快递</span>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="radio" name="Radm" value="self_pickup" ><span>客户自取</span>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="radio" name="Radm" value="door_reconciliation" ><span>上门对账</span>
+                                    </div>
+                                </div>
+                                <div class="main_middlem">
+                                    <label class="checkFrequency">金额对账频率：</label>
+                                    <input type="radio" name="Radme" value="bank_frequency" ><span>按银行确定的对账频率</span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="Radme" value="per_mensem" ><span>按月</span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="Radme" value="per_quarterly" ><span>按季</span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="Radme" value="per_halfyear" ><span>按半年</span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="Radme" value="per_year" ><span>按年</span>
+                                </div>
+                                <div class="main_middleb">
+                                    <div class="main_middlebl">
+                                        <label for="checkPerson">对账联系人：</label>
+                                        <input type=" text" id="checkPerson" placeholder="请输入对账联系人的姓名"/>
+                                    </div>
+                                    <div class="main_middlebm">
+                                        <label for="checkPhone">对账联系电话：</label>
+                                        <input type=" text" id="checkPhone" placeholder="请输入对账联系人的联系电话"/>
+                                    </div>
+                                    <div class="main_middlebr">
+                                        <label for="checkEmail">对账单收件地址（邮箱）：</label>
+                                        <input type=" text" id="checkEmail" placeholder="请输入邮箱地址"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="footer">
+                <div class="foot_left">
+                    <i class="fl_con"></i>
+                    <span class="fl_font">推荐信息</span>
+                </div>
+                <div class="foot_right">
+                    <span class="fr_font">呼叫帮助</span>
+                    <i class="fr_con"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
