@@ -2,30 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edcf6624-07d3-4abe-b85a-0ccadd30fff1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/card_error.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/insert_card.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/open_account.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/open_information.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scanning_license.html" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cardScan_error.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cardScan_succeed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/card_match.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/card_scan.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/certificates_match.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/cardScan_error.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/cardScan_succeed.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/card_match.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/card_scan.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/certificates_match.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanAgentCard_succeed.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanAgent_card.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanAuthorization_succeed.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanLicenses_succeed.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/scan_authorization.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/scaningLicenses_error.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanning_licenses.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scanAgentCard_succeed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scanAgent_card.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scanLicenses_succeed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scan_authorization.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scanningLicenses_error.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/scanning_licenses.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/css/index1.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/index1.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/index1.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/index2.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/index2.css.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/css/index2.scss" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/img/图层2.png" afterPath="$PROJECT_DIR$/img/service.png" />
-      <change beforePath="$PROJECT_DIR$/img/失败.png" afterPath="$PROJECT_DIR$/img/failure.png" />
-      <change beforePath="$PROJECT_DIR$/img/形状1拷贝2.png" afterPath="$PROJECT_DIR$/img/arrow.png" />
-      <change beforePath="$PROJECT_DIR$/img/成功.png" afterPath="$PROJECT_DIR$/img/succeed.png" />
-      <change beforePath="$PROJECT_DIR$/img/插入身份证.png" afterPath="$PROJECT_DIR$/img/ID _card.png" />
-      <change beforePath="$PROJECT_DIR$/img/矩形4拷贝.png" afterPath="$PROJECT_DIR$/img/content_box.png" />
-      <change beforePath="$PROJECT_DIR$/img/符号-阅读.png" afterPath="$PROJECT_DIR$/img/reading.png" />
-      <change beforePath="$PROJECT_DIR$/img/组16.png" afterPath="$PROJECT_DIR$/img/ZebraScan.png" />
-      <change beforePath="$PROJECT_DIR$/index1.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/index2.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/open_account.css" afterPath="$PROJECT_DIR$/css/open_account.css" />
+      <change beforePath="$PROJECT_DIR$/css/open_account.css.map" afterPath="$PROJECT_DIR$/css/open_account.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/open_account.scss" afterPath="$PROJECT_DIR$/css/open_account.scss" />
+      <change beforePath="$PROJECT_DIR$/img/图层4.png" afterPath="$PROJECT_DIR$/img/IDcard.png" />
+      <change beforePath="$PROJECT_DIR$/img/图层6.png" afterPath="$PROJECT_DIR$/img/licenses.png" />
+      <change beforePath="$PROJECT_DIR$/img/图层7.png" afterPath="$PROJECT_DIR$/img/authorization.png" />
+      <change beforePath="$PROJECT_DIR$/img/图层8.png" afterPath="$PROJECT_DIR$/img/agentCard.png" />
+      <change beforePath="$PROJECT_DIR$/img/圆角矩形1拷贝3.png" afterPath="$PROJECT_DIR$/img/certificate.png" />
+      <change beforePath="$PROJECT_DIR$/img/扫描授权书.png" afterPath="$PROJECT_DIR$/img/scan_authorization.png" />
+      <change beforePath="$PROJECT_DIR$/img/扫描营业执照.png" afterPath="$PROJECT_DIR$/img/scanning_license.png" />
+      <change beforePath="$PROJECT_DIR$/open_account.html" afterPath="$PROJECT_DIR$/open_account.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,64 +49,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.64409536">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="open_account.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/open_account.html">
+          <file leaf-file-name="card_match.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/card_match.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="79">
-                  <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-                  <folding>
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#3698#3704#0" expanded="true" />
-                    <element signature="e#3704#3710#0" expanded="true" />
-                    <element signature="e#3710#3716#0" expanded="true" />
-                    <element signature="e#3716#3722#0" expanded="true" />
-                    <element signature="e#3722#3728#0" expanded="true" />
-                    <element signature="e#3728#3734#0" expanded="true" />
-                    <element signature="e#4194#4200#0" expanded="true" />
-                    <element signature="e#4200#4206#0" expanded="true" />
-                    <element signature="e#4206#4212#0" expanded="true" />
-                    <element signature="e#4212#4218#0" expanded="true" />
-                    <element signature="e#4218#4224#0" expanded="true" />
-                    <element signature="e#4224#4230#0" expanded="true" />
-                    <element signature="e#4382#4388#0" expanded="true" />
-                    <element signature="e#4388#4394#0" expanded="true" />
-                    <element signature="e#4394#4400#0" expanded="true" />
-                    <element signature="e#4400#4406#0" expanded="true" />
-                    <element signature="e#4406#4412#0" expanded="true" />
-                    <element signature="e#4412#4418#0" expanded="true" />
-                    <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                    <element signature="e#4914#4920#0" expanded="true" />
-                    <element signature="e#4920#4926#0" expanded="true" />
-                    <element signature="e#4926#4932#0" expanded="true" />
-                    <element signature="e#4932#4938#0" expanded="true" />
-                    <element signature="e#4938#4944#0" expanded="true" />
-                    <element signature="e#4944#4950#0" expanded="true" />
-                    <element signature="e#5092#5098#0" expanded="true" />
-                    <element signature="e#5098#5104#0" expanded="true" />
-                    <element signature="e#5104#5110#0" expanded="true" />
-                    <element signature="e#5110#5116#0" expanded="true" />
-                    <element signature="e#5116#5122#0" expanded="true" />
-                    <element signature="e#5122#5128#0" expanded="true" />
-                    <element signature="e#5273#5279#0" expanded="true" />
-                    <element signature="e#5279#5285#0" expanded="true" />
-                    <element signature="e#5285#5291#0" expanded="true" />
-                    <element signature="e#5291#5297#0" expanded="true" />
-                    <element signature="e#5297#5303#0" expanded="true" />
-                    <element signature="e#5303#5309#0" expanded="true" />
-                    <element signature="e#5454#5460#0" expanded="true" />
-                    <element signature="e#5460#5466#0" expanded="true" />
-                    <element signature="e#5466#5472#0" expanded="true" />
-                    <element signature="e#5472#5478#0" expanded="true" />
-                    <element signature="e#5478#5484#0" expanded="true" />
-                    <element signature="e#5484#5490#0" expanded="true" />
-                    <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                  </folding>
+                <state relative-caret-position="216">
+                  <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -103,29 +65,13 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="open_account.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/open_account.scss">
+        <leaf>
+          <file leaf-file-name="card_match.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/card_match.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="211">
-                  <caret line="209" column="29" lean-forward="true" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#361#2537#0" expanded="false" />
-                    <element signature="e#3877#4070#0" expanded="false" />
-                    <element signature="e#4098#4348#0" expanded="false" />
-                    <element signature="e#4398#4555#0" expanded="false" />
-                    <element signature="e#5607#5764#0" expanded="false" />
-                    <element signature="e#6448#7338#0" expanded="false" />
-                    <element signature="e#6804#6955#0" expanded="false" />
-                    <element signature="e#6981#7213#0" expanded="false" />
-                    <element signature="e#7266#7320#0" expanded="false" />
-                    <element signature="e#7368#7976#0" expanded="false" />
-                    <element signature="e#7571#7714#0" expanded="false" />
-                    <element signature="e#7738#7958#0" expanded="false" />
-                    <element signature="e#8206#9032#0" expanded="false" />
-                    <element signature="e#8370#8553#0" expanded="false" />
-                    <element signature="e#8863#9012#0" expanded="false" />
-                  </folding>
+                <state relative-caret-position="174">
+                  <caret line="194" column="24" lean-forward="true" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -148,10 +94,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index1.css" />
-        <option value="$PROJECT_DIR$/index1.scss" />
-        <option value="$PROJECT_DIR$/css/index1.scss" />
-        <option value="$PROJECT_DIR$/index1.html" />
         <option value="$PROJECT_DIR$/css/nihao.scss" />
         <option value="$PROJECT_DIR$/index2.html" />
         <option value="$PROJECT_DIR$/css/index3.scss" />
@@ -177,6 +119,32 @@
         <option value="$PROJECT_DIR$/scanning_ license.html" />
         <option value="$PROJECT_DIR$/open_account.html" />
         <option value="$PROJECT_DIR$/css/open_account.scss" />
+        <option value="$PROJECT_DIR$/scanning_licenses.html" />
+        <option value="$PROJECT_DIR$/css/scanning_licenses.scss" />
+        <option value="$PROJECT_DIR$/scanLicenses_succeed.html" />
+        <option value="$PROJECT_DIR$/css/scanLicenses_succeed.scss" />
+        <option value="$PROJECT_DIR$/css/scaningLicenses_error.scss" />
+        <option value="$PROJECT_DIR$/scanningLicenses_error.html" />
+        <option value="$PROJECT_DIR$/css/card_scan.scss" />
+        <option value="$PROJECT_DIR$/card_scan.html" />
+        <option value="$PROJECT_DIR$/css/cardScan_succeed.scss" />
+        <option value="$PROJECT_DIR$/cardScan_succeed.html" />
+        <option value="$PROJECT_DIR$/cardScan_error.html" />
+        <option value="$PROJECT_DIR$/css/cardScan_error.scss" />
+        <option value="$PROJECT_DIR$/certificates_match.html" />
+        <option value="$PROJECT_DIR$/css/certificates_match.scss" />
+        <option value="$PROJECT_DIR$/scan_authorization.html" />
+        <option value="$PROJECT_DIR$/css/scan_authorization.scss" />
+        <option value="$PROJECT_DIR$/img/scanAuthorization_succeed.html" />
+        <option value="$PROJECT_DIR$/scanAuthorization_succeed.html" />
+        <option value="$PROJECT_DIR$/css/scanAuthorization_succeed.scss" />
+        <option value="$PROJECT_DIR$/css/scanAgent_card.scss" />
+        <option value="$PROJECT_DIR$/scanAgent_card.html" />
+        <option value="$PROJECT_DIR$/scanAgentCard_succeed.html" />
+        <option value="$PROJECT_DIR$/css/scanAgentCard_succeed.scss" />
+        <option value="$PROJECT_DIR$/img/card_match.html" />
+        <option value="$PROJECT_DIR$/css/card_match.scss" />
+        <option value="$PROJECT_DIR$/card_match.html" />
       </list>
     </option>
   </component>
@@ -186,9 +154,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-121" />
-    <option name="y" value="102" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-140" />
+    <option name="y" value="164" />
     <option name="width" value="1932" />
     <option name="height" value="600" />
   </component>
@@ -210,8 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,6 +194,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -238,6 +206,11 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\paradigmCompany\openbank\openbank_file" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,21 +247,24 @@
       <workItem from="1523841285228" duration="19491000" />
       <workItem from="1523927427439" duration="948000" />
       <workItem from="1523928404366" duration="21238000" />
+      <workItem from="1523973734036" duration="7256000" />
+      <workItem from="1524013508316" duration="21111000" />
+      <workItem from="1524041583984" duration="6930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93369000" />
+    <option name="totallyTimeSpent" value="128666000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-121" y="102" width="1932" height="600" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.038662486" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28649837" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28176796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -301,6 +277,25 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34906697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28176796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34906697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -313,72 +308,65 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/index1.scss" />
-    <entry file="file://$PROJECT_DIR$/index1.html" />
-    <entry file="file://$PROJECT_DIR$/css/index1.scss" />
-    <entry file="file://$PROJECT_DIR$/index1.css" />
-    <entry file="file://$PROJECT_DIR$/index1.scss" />
-    <entry file="file://$PROJECT_DIR$/img/矩形3.png" />
-    <entry file="file://$PROJECT_DIR$/css/nihao.scss" />
-    <entry file="file://$PROJECT_DIR$/css/nihao.css.map" />
-    <entry file="file://$PROJECT_DIR$/css/nihao.css" />
-    <entry file="file://$PROJECT_DIR$/img/content_box.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/css/index7.scss" />
+    <entry file="file://$PROJECT_DIR$/css/index8.scss" />
+    <entry file="file://$PROJECT_DIR$/card_successful.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/reading.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/银行卡.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/open_information.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="77" lean-forward="true" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/返回.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/open_materials.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/组21拷贝2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/css/open_account.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="404" column="35" lean-forward="true" selection-start-line="404" selection-start-column="35" selection-end-line="404" selection-end-column="35" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/arrow.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/css/scanning_license.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3645">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/service.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/open_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="166" column="18" lean-forward="true" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/openbank_file/index3.html" />
-    <entry file="file://$PROJECT_DIR$/img/图层4.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://D:/安装包/Photoshop_Set-Up/Photoshop_Set-Up/Photoshop CC 2018最新官方版免费下载.url">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/图层6.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/图层7.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/图层8.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/确认.png">
+    <entry file="file://$PROJECT_DIR$/img/scanning_license.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -388,9 +376,16 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/温馨提示.png">
+    <entry file="file://$PROJECT_DIR$/img/licenses.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scaningLicenses_error.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3051">
+          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/ID _card.png">
@@ -398,184 +393,268 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/授权.png">
+    <entry file="file://$PROJECT_DIR$/img/IDcard.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/扫描营业执照.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/css/cardScan_error.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/扫描授权书.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/cardScan_error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/succeed.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/failure.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/圆角矩形1拷贝3.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/index1.scss" />
-    <entry file="file://$PROJECT_DIR$/css/index3.scss" />
-    <entry file="file://$PROJECT_DIR$/css/index4.scss" />
-    <entry file="file://$PROJECT_DIR$/css/index6.html" />
-    <entry file="file://$PROJECT_DIR$/css/index5.scss" />
-    <entry file="file://$PROJECT_DIR$/css/index6.scss" />
-    <entry file="file://$PROJECT_DIR$/index2.html" />
-    <entry file="file://$PROJECT_DIR$/css/index2.scss" />
-    <entry file="file://$PROJECT_DIR$/index1.html" />
-    <entry file="file://$PROJECT_DIR$/css/index7.scss" />
-    <entry file="file://$PROJECT_DIR$/css/index8.scss" />
     <entry file="file://$PROJECT_DIR$/card_error.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="573">
+          <caret line="38" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/card_error.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/insert_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="126" column="25" lean-forward="true" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/certificate.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanningLicenses_error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-81">
           <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/card_successful.html">
+    <entry file="file://$PROJECT_DIR$/scanning_licenses.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+        <state relative-caret-position="669">
+          <caret line="51" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/scanning_licenses.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        <state relative-caret-position="282">
+          <caret line="113" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/insert_card.html">
+    <entry file="file://$PROJECT_DIR$/img/scan_authorization.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scan_authorization.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="72" lean-forward="true" selection-start-line="5" selection-start-column="72" selection-end-line="5" selection-end-column="72" />
+        <state relative-caret-position="270">
+          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/open_information.html">
+    <entry file="file://$PROJECT_DIR$/css/scan_authorization.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="77" lean-forward="true" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open_materials.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        <state relative-caret-position="1065">
+          <caret line="109" column="40" lean-forward="true" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scanning_license.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="588">
+          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/open_account.scss">
+    <entry file="file://$PROJECT_DIR$/openbank_file/scanAuthorization_succeed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="209" column="29" lean-forward="true" selection-start-line="209" selection-start-column="29" selection-end-line="209" selection-end-column="29" />
-          <folding>
-            <element signature="e#361#2537#0" expanded="false" />
-            <element signature="e#3877#4070#0" expanded="false" />
-            <element signature="e#4098#4348#0" expanded="false" />
-            <element signature="e#4398#4555#0" expanded="false" />
-            <element signature="e#5607#5764#0" expanded="false" />
-            <element signature="e#6448#7338#0" expanded="false" />
-            <element signature="e#6804#6955#0" expanded="false" />
-            <element signature="e#6981#7213#0" expanded="false" />
-            <element signature="e#7266#7320#0" expanded="false" />
-            <element signature="e#7368#7976#0" expanded="false" />
-            <element signature="e#7571#7714#0" expanded="false" />
-            <element signature="e#7738#7958#0" expanded="false" />
-            <element signature="e#8206#9032#0" expanded="false" />
-            <element signature="e#8370#8553#0" expanded="false" />
-            <element signature="e#8863#9012#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/open_account.html">
+    <entry file="file://$PROJECT_DIR$/scanLicenses_succeed.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#3698#3704#0" expanded="true" />
-            <element signature="e#3704#3710#0" expanded="true" />
-            <element signature="e#3710#3716#0" expanded="true" />
-            <element signature="e#3716#3722#0" expanded="true" />
-            <element signature="e#3722#3728#0" expanded="true" />
-            <element signature="e#3728#3734#0" expanded="true" />
-            <element signature="e#4194#4200#0" expanded="true" />
-            <element signature="e#4200#4206#0" expanded="true" />
-            <element signature="e#4206#4212#0" expanded="true" />
-            <element signature="e#4212#4218#0" expanded="true" />
-            <element signature="e#4218#4224#0" expanded="true" />
-            <element signature="e#4224#4230#0" expanded="true" />
-            <element signature="e#4382#4388#0" expanded="true" />
-            <element signature="e#4388#4394#0" expanded="true" />
-            <element signature="e#4394#4400#0" expanded="true" />
-            <element signature="e#4400#4406#0" expanded="true" />
-            <element signature="e#4406#4412#0" expanded="true" />
-            <element signature="e#4412#4418#0" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#3;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#4914#4920#0" expanded="true" />
-            <element signature="e#4920#4926#0" expanded="true" />
-            <element signature="e#4926#4932#0" expanded="true" />
-            <element signature="e#4932#4938#0" expanded="true" />
-            <element signature="e#4938#4944#0" expanded="true" />
-            <element signature="e#4944#4950#0" expanded="true" />
-            <element signature="e#5092#5098#0" expanded="true" />
-            <element signature="e#5098#5104#0" expanded="true" />
-            <element signature="e#5104#5110#0" expanded="true" />
-            <element signature="e#5110#5116#0" expanded="true" />
-            <element signature="e#5116#5122#0" expanded="true" />
-            <element signature="e#5122#5128#0" expanded="true" />
-            <element signature="e#5273#5279#0" expanded="true" />
-            <element signature="e#5279#5285#0" expanded="true" />
-            <element signature="e#5285#5291#0" expanded="true" />
-            <element signature="e#5291#5297#0" expanded="true" />
-            <element signature="e#5297#5303#0" expanded="true" />
-            <element signature="e#5303#5309#0" expanded="true" />
-            <element signature="e#5454#5460#0" expanded="true" />
-            <element signature="e#5460#5466#0" expanded="true" />
-            <element signature="e#5466#5472#0" expanded="true" />
-            <element signature="e#5472#5478#0" expanded="true" />
-            <element signature="e#5478#5484#0" expanded="true" />
-            <element signature="e#5484#5490#0" expanded="true" />
-            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="15" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanLicenses_succeed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="113" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/authorization.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanAuthorization_succeed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanAuthorization_succeed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/授权.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/insert_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card_scan.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="55" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/card_scan.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="188" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanAgent_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanAgent_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="188" column="32" lean-forward="true" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/cardScan_succeed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="112" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/agentCard.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanAgentCard_succeed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cardScan_succeed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanAgentCard_succeed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/card_match.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certificates_match.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="59" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/certificates_match.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="134" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card_match.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/card_match.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="194" column="24" lean-forward="true" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

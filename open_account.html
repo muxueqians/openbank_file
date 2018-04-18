@@ -108,7 +108,51 @@
                                 </div>
                             </div>
                         </div>
+                        <!--本次办理-->
+                        <div class="main_title">本次办理</div>
+                        <div class="main_middlef">
+                            <div class="main_middlefc">
+                                <div class="main_middlefct">
+                                    <div class="main_middlefctl">
+                                        <label class="transactionPer">当前办理人：</label>
+                                        <input type="radio" name="Rade" value="realName" ><span>法人</span>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="radio" name="Rade" value="electronic_check" ><span>代办人</span>
+                                    </div>
+                                    <div class="main_middlefctr">
+                                        <label class="transactionTime">印鉴办理时间：</label>
+                                        <input type="radio" name="Radf" value="once_transaction" ><span>本次办理（需携带公章）</span>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="radio" name="Radf" value="later_transaction" ><span>另行补办（办理前无法激活账户）</span>
+                                    </div>
+                                </div>
+                                <div class="main_middlefcb">
+                                    <label class="openCardMethods">《开户许可证》送达方式：</label>
+                                    <input type="radio" name="Rade" value="entrust_courier" ><span>委托快递</span>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" name="Rade" value="self_pickup" ><span>客户自取</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--办理人确认-->
+                        <div class="main_title">办理人确认</div>
+                        <div class="main_bottom">
+                            <div class="transaction_affirm">
+                                <div class="account_statement">
+                                    <div class="account_statementc">
+                                        <span>存款人声明：</span>
+                                        <p>本存款人申请开立人民币单位银行结算账户，承诺所提交的开户资料真实、有效。本存款人知悉并遵守《XX银行人民币单位行<br/>结算账户管理协议》。开户银行已应要求作出解释。</p>
+                                        <p>本存款人对上述填写/打印信息确认无误。</p>
+                                    </div>
+                                </div>
+                                <div class="signature_block">
+                                    <label for="useName"><span>签字栏</span></label>
+                                    <input type="text" id="useName"/>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="affirm"><input type="submit" value="确认" style="color:#ffffff;font-size:14px;"/></div>
                 </form>
             </div>
             <div class="footer">
