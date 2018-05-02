@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/certificates_match.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/certificates_match.js"></script>
 </head>
 <body>
 <div class="box">
@@ -17,7 +19,7 @@
                         <span class="material">证件扫描</span>
                     </div>
                     <div class="hcr">
-                        <a href="index1.html"><img src="img/return_key.png"/></a>
+                        <a href="#" onclick="ret(); return false"><img src="img/return_key.png"/></a>
                         <i class="linellae"></i>
                         <span class="timed">
                                <em id="timesd">180</em>
@@ -30,19 +32,18 @@
                 <div class="main_picture">
                     <div class="mainLicenses">
                         <div class="mafont">营业执照</div>
-                        <div class="licensesPicture licensesCard"></div>
+                        <div class="licensesPicture licensesCard">
+                            <img id="licensesPicture" style="width:100%;"  src=""/>
+                        </div>
                     </div>
                     <div class="mainCard">
                         <div class="mafont">法人身份证</div>
-                        <div class="cardPicture licensesCard"></div>
+                        <div class="cardPicture licensesCard">
+                            <img  id="cardPicture" style="width:100%;"  src=""/>
+                        </div>
                     </div>
                 </div>
-                <!--<img src="img/ZebraScan.png"/>-->
-                <!--<div class="main_icf">-->
-                    <!--<i class="main_ic"></i>-->
-                    <!--<span class="main_ft">扫描成功，请在指定位置插入法人身份证</span>-->
-                <!--</div>-->
-                <div class="affirm">确认</div>
+                <div id="affirm">确认</div>
             </div>
             <div class="footer">
                 <div class="foot_left">

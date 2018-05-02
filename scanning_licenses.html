@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/scanning_licenses.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scanning_licenses.js"></script>
 </head>
 <body>
 <div class="box">
@@ -20,7 +22,7 @@
                         <span class="material">扫描营业执照</span>
                     </div>
                     <div class="hcr">
-                        <a href="index1.html"><img src="img/return_key.png"/></a>
+                        <a href="#" onclick="ret(); return false"><img src="img/return_key.png"/></a>
                         <i class="linellae"></i>
                         <span class="timed">
                                <em id="timesd">180</em>
@@ -36,7 +38,7 @@
                     <i class="main_ic"></i>
                     <span class="main_ft">请将营业执照放入扫描区域</span>
                 </div>
-                <div class="affirm">确认</div>
+                <div id="affirm">开始扫描</div>
             </div>
             <div class="footer">
                 <div class="foot_left">

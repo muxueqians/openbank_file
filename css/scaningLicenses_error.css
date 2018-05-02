@@ -3,6 +3,12 @@ html, body {
   margin: 0;
   font-family: "Microsoft YaHei"; }
 
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
 html, body {
   width: 100%;
   height: 100%; }
@@ -90,7 +96,7 @@ html, body {
             background-repeat: no-repeat;
             margin: 140px auto 80px; }
           html .box .interior .content .main .main_icf, body .box .interior .content .main .main_icf {
-            width: 626px;
+            width: 930px;
             height: 100px;
             margin: 0 auto; }
             html .box .interior .content .main .main_icf .main_ic, body .box .interior .content .main .main_icf .main_ic {
@@ -105,17 +111,19 @@ html, body {
               height: 62px;
               line-height: 62px;
               text-align: center;
+              font-size: 24px;
               font-family: "Microsoft YaHei";
               color: #ffffff; }
-          html .box .interior .content .main .affirm, body .box .interior .content .main .affirm {
+          html .box .interior .content .main #affirm, body .box .interior .content .main #affirm {
             width: 260px;
             height: 40px;
             text-align: center;
             line-height: 40px;
-            background-color: #FFA500;
+            background-color: #f49e17;
             margin: 100px auto 40px;
             font-family: "Microsoft YaHei";
-            color: #ffffff; }
+            color: #ffffff;
+            cursor: pointer; }
         html .box .interior .content .footer, body .box .interior .content .footer {
           width: 100%;
           height: 52px;

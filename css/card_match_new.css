@@ -1,0 +1,177 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: "Microsoft YaHei"; }
+
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
+html, body {
+  width: 100%;
+  height: 100%; }
+  html .box, body .box {
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto; }
+    html .box .interior, body .box .interior {
+      width: 100%;
+      height: 100%;
+      background: url("../img/1-1.jpg"); }
+      html .box .interior .content, body .box .interior .content {
+        width: 100%;
+        height: 900px;
+        position: relative; }
+        html .box .interior .content .header, body .box .interior .content .header {
+          width: 100%;
+          height: 70px;
+          background: url("../img/title.png"); }
+          html .box .interior .content .header .header_content, body .box .interior .content .header .header_content {
+            width: 1340px;
+            height: 70px;
+            margin: 0 auto; }
+            html .box .interior .content .header .header_content .hcl, body .box .interior .content .header .header_content .hcl {
+              width: 247px;
+              height: 40px;
+              line-height: 40px;
+              margin-top: 15px;
+              float: left; }
+              html .box .interior .content .header .header_content .hcl span, body .box .interior .content .header .header_content .hcl span {
+                font-family: "Microsoft YaHei"; }
+              html .box .interior .content .header .header_content .hcl .open_bank, body .box .interior .content .header .header_content .hcl .open_bank {
+                color: #cee4f7;
+                font-size: 14px; }
+              html .box .interior .content .header .header_content .hcl i, body .box .interior .content .header .header_content .hcl i {
+                font-style: normal;
+                color: #ffffff;
+                font-size: 24px; }
+              html .box .interior .content .header .header_content .hcl .material, body .box .interior .content .header .header_content .hcl .material {
+                color: #ffffff;
+                font-size: 24px; }
+            html .box .interior .content .header .header_content .hcr, body .box .interior .content .header .header_content .hcr {
+              width: 200px;
+              height: 46px;
+              margin-top: 12px;
+              vertical-align: middle;
+              float: right;
+              font-family: "Microsoft YaHei";
+              overflow: hidden; }
+              html .box .interior .content .header .header_content .hcr a, body .box .interior .content .header .header_content .hcr a {
+                display: inline-block;
+                width: 74px;
+                height: 46px;
+                float: right; }
+        html .box .interior .content .main, body .box .interior .content .main {
+          width: 1340px;
+          height: 728px;
+          background: url("../img/content_box.png");
+          background-repeat: no-repeat;
+          margin: 40px auto 0px;
+          overflow: hidden;
+          position: relative; }
+          html .box .interior .content .main .main_picture, body .box .interior .content .main .main_picture {
+            width: 780px;
+            height: 580px;
+            margin: 30px auto; }
+            html .box .interior .content .main .main_picture .mapic_left, html .box .interior .content .main .main_picture .mapic_right, body .box .interior .content .main .main_picture .mapic_left, body .box .interior .content .main .main_picture .mapic_right {
+              width: 380px;
+              height: 580px;
+              float: left; }
+              html .box .interior .content .main .main_picture .mapic_left .blicense, html .box .interior .content .main .main_picture .mapic_left .realNameCard, html .box .interior .content .main .main_picture .mapic_left .authouization, html .box .interior .content .main .main_picture .mapic_left .agentCard, html .box .interior .content .main .main_picture .mapic_right .blicense, html .box .interior .content .main .main_picture .mapic_right .realNameCard, html .box .interior .content .main .main_picture .mapic_right .authouization, html .box .interior .content .main .main_picture .mapic_right .agentCard, body .box .interior .content .main .main_picture .mapic_left .blicense, body .box .interior .content .main .main_picture .mapic_left .realNameCard, body .box .interior .content .main .main_picture .mapic_left .authouization, body .box .interior .content .main .main_picture .mapic_left .agentCard, body .box .interior .content .main .main_picture .mapic_right .blicense, body .box .interior .content .main .main_picture .mapic_right .realNameCard, body .box .interior .content .main .main_picture .mapic_right .authouization, body .box .interior .content .main .main_picture .mapic_right .agentCard {
+                width: 380px;
+                height: 280px;
+                position: relative;
+                background: url("../img/certificate2.png");
+                background-repeat: no-repeat; }
+                html .box .interior .content .main .main_picture .mapic_left .blicense .head_title, html .box .interior .content .main .main_picture .mapic_left .realNameCard .head_title, html .box .interior .content .main .main_picture .mapic_left .authouization .head_title, html .box .interior .content .main .main_picture .mapic_left .agentCard .head_title, html .box .interior .content .main .main_picture .mapic_right .blicense .head_title, html .box .interior .content .main .main_picture .mapic_right .realNameCard .head_title, html .box .interior .content .main .main_picture .mapic_right .authouization .head_title, html .box .interior .content .main .main_picture .mapic_right .agentCard .head_title, body .box .interior .content .main .main_picture .mapic_left .blicense .head_title, body .box .interior .content .main .main_picture .mapic_left .realNameCard .head_title, body .box .interior .content .main .main_picture .mapic_left .authouization .head_title, body .box .interior .content .main .main_picture .mapic_left .agentCard .head_title, body .box .interior .content .main .main_picture .mapic_right .blicense .head_title, body .box .interior .content .main .main_picture .mapic_right .realNameCard .head_title, body .box .interior .content .main .main_picture .mapic_right .authouization .head_title, body .box .interior .content .main .main_picture .mapic_right .agentCard .head_title {
+                  width: 380px;
+                  height: 48px;
+                  text-align: center;
+                  line-height: 48px;
+                  font-size: 18px;
+                  color: #ffffff;
+                  position: absolute;
+                  top: 0;
+                  left: 0; }
+                html .box .interior .content .main .main_picture .mapic_left .blicense .certificate_box, html .box .interior .content .main .main_picture .mapic_left .realNameCard .certificate_box, html .box .interior .content .main .main_picture .mapic_left .authouization .certificate_box, html .box .interior .content .main .main_picture .mapic_left .agentCard .certificate_box, html .box .interior .content .main .main_picture .mapic_right .blicense .certificate_box, html .box .interior .content .main .main_picture .mapic_right .realNameCard .certificate_box, html .box .interior .content .main .main_picture .mapic_right .authouization .certificate_box, html .box .interior .content .main .main_picture .mapic_right .agentCard .certificate_box, body .box .interior .content .main .main_picture .mapic_left .blicense .certificate_box, body .box .interior .content .main .main_picture .mapic_left .realNameCard .certificate_box, body .box .interior .content .main .main_picture .mapic_left .authouization .certificate_box, body .box .interior .content .main .main_picture .mapic_left .agentCard .certificate_box, body .box .interior .content .main .main_picture .mapic_right .blicense .certificate_box, body .box .interior .content .main .main_picture .mapic_right .realNameCard .certificate_box, body .box .interior .content .main .main_picture .mapic_right .authouization .certificate_box, body .box .interior .content .main .main_picture .mapic_right .agentCard .certificate_box {
+                  width: 168px;
+                  height: 186px;
+                  padding-top: 40px;
+                  padding-left: 80px;
+                  position: absolute;
+                  top: 48px;
+                  left: 6px; }
+                html .box .interior .content .main .main_picture .mapic_left .blicense .autPer, html .box .interior .content .main .main_picture .mapic_left .realNameCard .autPer, html .box .interior .content .main .main_picture .mapic_left .authouization .autPer, html .box .interior .content .main .main_picture .mapic_left .agentCard .autPer, html .box .interior .content .main .main_picture .mapic_right .blicense .autPer, html .box .interior .content .main .main_picture .mapic_right .realNameCard .autPer, html .box .interior .content .main .main_picture .mapic_right .authouization .autPer, html .box .interior .content .main .main_picture .mapic_right .agentCard .autPer, body .box .interior .content .main .main_picture .mapic_left .blicense .autPer, body .box .interior .content .main .main_picture .mapic_left .realNameCard .autPer, body .box .interior .content .main .main_picture .mapic_left .authouization .autPer, body .box .interior .content .main .main_picture .mapic_left .agentCard .autPer, body .box .interior .content .main .main_picture .mapic_right .blicense .autPer, body .box .interior .content .main .main_picture .mapic_right .realNameCard .autPer, body .box .interior .content .main .main_picture .mapic_right .authouization .autPer, body .box .interior .content .main .main_picture .mapic_right .agentCard .autPer {
+                  padding-top: 28px;
+                  padding-left: 100px; }
+              html .box .interior .content .main .main_picture .mapic_left .realNameCard, html .box .interior .content .main .main_picture .mapic_left .agentCard, html .box .interior .content .main .main_picture .mapic_right .realNameCard, html .box .interior .content .main .main_picture .mapic_right .agentCard, body .box .interior .content .main .main_picture .mapic_left .realNameCard, body .box .interior .content .main .main_picture .mapic_left .agentCard, body .box .interior .content .main .main_picture .mapic_right .realNameCard, body .box .interior .content .main .main_picture .mapic_right .agentCard {
+                margin-top: 20px; }
+            html .box .interior .content .main .main_picture .mapic_right, body .box .interior .content .main .main_picture .mapic_right {
+              float: right; }
+          html .box .interior .content .main .main_fsr, body .box .interior .content .main .main_fsr {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+            bottom: 6px;
+            right: 0;
+            cursor: pointer; }
+          html .box .interior .content .main #affirm, body .box .interior .content .main #affirm {
+            width: 260px;
+            height: 40px;
+            text-align: center;
+            line-height: 40px;
+            margin: 25px auto 40px;
+            cursor: pointer;
+            font-size: 24px;
+            font-family: "Microsoft YaHei";
+            color: #ffffff; }
+        html .box .interior .content .footer, body .box .interior .content .footer {
+          width: 100%;
+          height: 52px;
+          position: relative;
+          postion: absloute;
+          bottom: 0px;
+          background: url("../img/foot.png");
+          background-repeat: no-repeat; }
+          html .box .interior .content .footer .foot_left, body .box .interior .content .footer .foot_left {
+            width: 150px;
+            height: 52px;
+            position: absolute;
+            left: 0;
+            bottom: -6px; }
+            html .box .interior .content .footer .foot_left .fl_con, body .box .interior .content .footer .foot_left .fl_con {
+              display: inline-block;
+              width: 24px;
+              height: 24px;
+              background: url("../img/reading.png");
+              margin: 12px 0px 12px 20px;
+              vertical-align: middle;
+              float: left; }
+            html .box .interior .content .footer .foot_left .fl_font, body .box .interior .content .footer .foot_left .fl_font {
+              margin: 14px 5px 14px 12px;
+              color: #ffffff;
+              font-size: 16px;
+              float: left; }
+          html .box .interior .content .footer .foot_right, body .box .interior .content .footer .foot_right {
+            width: 150px;
+            height: 52px;
+            position: absolute;
+            right: 0;
+            bottom: -6px; }
+            html .box .interior .content .footer .foot_right .fr_font, body .box .interior .content .footer .foot_right .fr_font {
+              margin-left: 20px;
+              margin-top: 14px;
+              color: #ffffff;
+              font-size: 16px;
+              float: left; }
+            html .box .interior .content .footer .foot_right .fr_con, body .box .interior .content .footer .foot_right .fr_con {
+              display: inline-block;
+              width: 24px;
+              height: 24px;
+              background: url("../img/service.png");
+              margin: 12px 5px 12px 20px;
+              float: left; }
+
+/*# sourceMappingURL=card_match_new.css.map */

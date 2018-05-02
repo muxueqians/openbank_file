@@ -1,4 +1,6 @@
 html,body{padding:0;margin:0;font-family:"Microsoft YaHei";}
+a{text-decoration: none;}
+img{border: none;}
 html,body{
   width:100%;
   height:100%;
@@ -104,11 +106,20 @@ html,body{
           overflow: hidden;
           //position:relative;
           .main_picture{
-            width:474px;
-            height:273px;
+            width:280px;
+            height:280px;
             background:url("../img/ZebraScan.png");
             background-repeat:no-repeat;
             margin:140px auto 80px;
+            cursor: pointer;
+            overflow:hidden;
+            span{
+              display:block;
+              width:300px;
+              height:1px;
+              margin: 0 auto;
+              background-color:#c2d6a1;
+            }
           }
           .main_icf{
             width:500px;
@@ -128,30 +139,17 @@ html,body{
               height:62px;
               line-height: 62px;
               text-align: center;
+              font-size:24px;
               font-family:"Microsoft YaHei";
               color:#ffffff;
             }
-          }
-          .affirm{
-            width:260px;
-            height:40px;
-            text-align: center;
-            line-height: 40px;
-            background-color:#FFA500;
-            //margin-bottom:45px;
-            margin:25px auto 40px;
-            //position:absolute;
-            //left:522px;
-            //bottom:45px;
-            font-family:"Microsoft YaHei";
-            color:#ffffff;
           }
         }
         .footer{
           width:100%;
           height:52px;
           position:relative;
-          postion:absloute;
+          //postion:absloute;
           bottom:0px;
           background:url("../img/foot.png");
           background-repeat:no-repeat;

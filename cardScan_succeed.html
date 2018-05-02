@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/cardScan_succeed.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/cardScan_succeedData.js"></script>
+    <script type="text/javascript" src="js/cardScan_succeed.js"></script>
 </head>
 <body>
 <div class="box">
@@ -17,7 +20,7 @@
                         <span class="material">证件扫描</span>
                     </div>
                     <div class="hcr">
-                        <a href="index1.html"><img src="img/return_key.png"/></a>
+                        <a href="#" onclick="ret();return false"><img src="img/return_key.png"/></a>
                         <i class="linellae"></i>
                         <span class="timed">
                                <em id="timesd">180</em>
@@ -31,9 +34,9 @@
                 <!--<img src="img/ZebraScan.png"/>-->
                 <div class="main_icf">
                     <i class="main_ic"></i>
-                    <span class="main_ft">请在指定位置插入法人身份证</span>
+                    <span class="main_ft">法人身份证扫描成功</span>
                 </div>
-                <div class="affirm">确认</div>
+                <div id="affirm">确认</div>
             </div>
             <div class="footer">
                 <div class="foot_left">

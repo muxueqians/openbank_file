@@ -7,6 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="css/scanLicenses_succeed.css" />
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/scanLicenses_succeed.js"></script>
 </head>
 <body>
 <div class="box">
@@ -17,10 +19,10 @@
                     <div class="hcl">
                         <span class="open_bank">企业开户</span>
                         <i>＞</i>
-                        <span class="material">扫描营业执照</span>
+                        <span class="material">证件扫描</span>
                     </div>
                     <div class="hcr">
-                        <a href="index1.html"><img src="img/return_key.png"/></a>
+                        <a href="#" onclick="ret(); return false"><img src="img/return_key.png"/></a>
                         <i class="linellae"></i>
                         <span class="timed">
                                <em id="timesd">180</em>
@@ -36,7 +38,7 @@
                     <i class="main_ic"></i>
                     <span class="main_ft">营业执照扫描成功</span>
                 </div>
-                <div class="affirm">确认</div>
+                <div id="affirm">确认</div>
             </div>
             <div class="footer">
                 <div class="foot_left">

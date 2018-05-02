@@ -2,41 +2,138 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edcf6624-07d3-4abe-b85a-0ccadd30fff1" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cardScan_error.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cardScan_succeed.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/card_match.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/card_scan.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/certificates_match.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/cardScan_error.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/cardScan_succeed.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/card_match.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/card_scan.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/certificates_match.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanAgentCard_succeed.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanAgent_card.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanAuthorization_succeed.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanLicenses_succeed.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/scan_authorization.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/scaningLicenses_error.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/css/scanning_licenses.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scanAgentCard_succeed.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scanAgent_card.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scanLicenses_succeed.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scan_authorization.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scanningLicenses_error.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scanning_licenses.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bank_card.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/bank_card.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/cardScans_succeed.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/card_match_new.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/certificates_match_new.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/managerAuthorization.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/openbank_succeed.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/password_page.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/css/take_idCard.scss" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/bank_card.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/cardScan_error.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/cardScan_succeed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/cardScan_succeedData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/cardScansd_succeed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/card_error.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/card_match.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/card_successful.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/certificates_match.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/headerTime.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/insert_card.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/insertsd_card.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/managerAuthorization.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/open_account.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/open_information.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/open_materials.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/openbank_succeed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/password_page.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scanAgentCard_succeed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scanAgent_card.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scanAuthorization_succeed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scanLicenses_succeed.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scan_authorization.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scaningLicenses_error.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scanning_license.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scanning_licenseData.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/scanning_licenses.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/js/take_idCard.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/openbank_succeed.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/password_page.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/cardScan_error.html" afterPath="$PROJECT_DIR$/cardScan_error.html" />
+      <change beforePath="$PROJECT_DIR$/cardScan_succeed.html" afterPath="$PROJECT_DIR$/cardScan_succeed.html" />
+      <change beforePath="$PROJECT_DIR$/card_error.html" afterPath="$PROJECT_DIR$/card_error.html" />
+      <change beforePath="$PROJECT_DIR$/card_match.html" afterPath="$PROJECT_DIR$/card_match.html" />
+      <change beforePath="$PROJECT_DIR$/card_scan.html" afterPath="$PROJECT_DIR$/card_scan.html" />
+      <change beforePath="$PROJECT_DIR$/card_successful.html" afterPath="$PROJECT_DIR$/card_successful.html" />
+      <change beforePath="$PROJECT_DIR$/certificates_match.html" afterPath="$PROJECT_DIR$/certificates_match.html" />
+      <change beforePath="$PROJECT_DIR$/css/cardScan_error.css" afterPath="$PROJECT_DIR$/css/cardScan_error.css" />
+      <change beforePath="$PROJECT_DIR$/css/cardScan_error.css.map" afterPath="$PROJECT_DIR$/css/cardScan_error.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/cardScan_error.scss" afterPath="$PROJECT_DIR$/css/cardScan_error.scss" />
+      <change beforePath="$PROJECT_DIR$/css/cardScan_succeed.css" afterPath="$PROJECT_DIR$/css/cardScan_succeed.css" />
+      <change beforePath="$PROJECT_DIR$/css/cardScan_succeed.css.map" afterPath="$PROJECT_DIR$/css/cardScan_succeed.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/cardScan_succeed.scss" afterPath="$PROJECT_DIR$/css/cardScan_succeed.scss" />
+      <change beforePath="$PROJECT_DIR$/css/card_error.css" afterPath="$PROJECT_DIR$/css/card_error.css" />
+      <change beforePath="$PROJECT_DIR$/css/card_error.css.map" afterPath="$PROJECT_DIR$/css/card_error.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/card_error.scss" afterPath="$PROJECT_DIR$/css/card_error.scss" />
+      <change beforePath="$PROJECT_DIR$/css/card_match.css" afterPath="$PROJECT_DIR$/css/card_match.css" />
+      <change beforePath="$PROJECT_DIR$/css/card_match.css.map" afterPath="$PROJECT_DIR$/css/card_match.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/card_match.scss" afterPath="$PROJECT_DIR$/css/card_match.scss" />
+      <change beforePath="$PROJECT_DIR$/css/card_scan.css" afterPath="$PROJECT_DIR$/css/card_scan.css" />
+      <change beforePath="$PROJECT_DIR$/css/card_scan.css.map" afterPath="$PROJECT_DIR$/css/card_scan.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/card_scan.scss" afterPath="$PROJECT_DIR$/css/card_scan.scss" />
+      <change beforePath="$PROJECT_DIR$/css/card_successful.css" afterPath="$PROJECT_DIR$/css/card_successful.css" />
+      <change beforePath="$PROJECT_DIR$/css/card_successful.css.map" afterPath="$PROJECT_DIR$/css/card_successful.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/card_successful.scss" afterPath="$PROJECT_DIR$/css/card_successful.scss" />
+      <change beforePath="$PROJECT_DIR$/css/certificates_match.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/certificates_match.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/css/certificates_match.scss" afterPath="$PROJECT_DIR$/css/certificates_match.scss" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/css/index.css.map" afterPath="$PROJECT_DIR$/css/index.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/index.scss" afterPath="$PROJECT_DIR$/css/index.scss" />
+      <change beforePath="$PROJECT_DIR$/css/insert_card.css" afterPath="$PROJECT_DIR$/css/insert_card.css" />
+      <change beforePath="$PROJECT_DIR$/css/insert_card.css.map" afterPath="$PROJECT_DIR$/css/insert_card.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/insert_card.scss" afterPath="$PROJECT_DIR$/css/insert_card.scss" />
       <change beforePath="$PROJECT_DIR$/css/open_account.css" afterPath="$PROJECT_DIR$/css/open_account.css" />
       <change beforePath="$PROJECT_DIR$/css/open_account.css.map" afterPath="$PROJECT_DIR$/css/open_account.css.map" />
       <change beforePath="$PROJECT_DIR$/css/open_account.scss" afterPath="$PROJECT_DIR$/css/open_account.scss" />
-      <change beforePath="$PROJECT_DIR$/img/图层4.png" afterPath="$PROJECT_DIR$/img/IDcard.png" />
-      <change beforePath="$PROJECT_DIR$/img/图层6.png" afterPath="$PROJECT_DIR$/img/licenses.png" />
-      <change beforePath="$PROJECT_DIR$/img/图层7.png" afterPath="$PROJECT_DIR$/img/authorization.png" />
-      <change beforePath="$PROJECT_DIR$/img/图层8.png" afterPath="$PROJECT_DIR$/img/agentCard.png" />
-      <change beforePath="$PROJECT_DIR$/img/圆角矩形1拷贝3.png" afterPath="$PROJECT_DIR$/img/certificate.png" />
-      <change beforePath="$PROJECT_DIR$/img/扫描授权书.png" afterPath="$PROJECT_DIR$/img/scan_authorization.png" />
-      <change beforePath="$PROJECT_DIR$/img/扫描营业执照.png" afterPath="$PROJECT_DIR$/img/scanning_license.png" />
+      <change beforePath="$PROJECT_DIR$/css/open_information.css" afterPath="$PROJECT_DIR$/css/open_information.css" />
+      <change beforePath="$PROJECT_DIR$/css/open_information.css.map" afterPath="$PROJECT_DIR$/css/open_information.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/open_information.scss" afterPath="$PROJECT_DIR$/css/open_information.scss" />
+      <change beforePath="$PROJECT_DIR$/css/open_materials.css" afterPath="$PROJECT_DIR$/css/open_materials.css" />
+      <change beforePath="$PROJECT_DIR$/css/open_materials.css.map" afterPath="$PROJECT_DIR$/css/open_materials.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/open_materials.scss" afterPath="$PROJECT_DIR$/css/open_materials.scss" />
+      <change beforePath="$PROJECT_DIR$/css/scanAgentCard_succeed.css" afterPath="$PROJECT_DIR$/css/scanAgentCard_succeed.css" />
+      <change beforePath="$PROJECT_DIR$/css/scanAgentCard_succeed.css.map" afterPath="$PROJECT_DIR$/css/scanAgentCard_succeed.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/scanAgentCard_succeed.scss" afterPath="$PROJECT_DIR$/css/scanAgentCard_succeed.scss" />
+      <change beforePath="$PROJECT_DIR$/css/scanAgent_card.css" afterPath="$PROJECT_DIR$/css/scanAgent_card.css" />
+      <change beforePath="$PROJECT_DIR$/css/scanAgent_card.css.map" afterPath="$PROJECT_DIR$/css/scanAgent_card.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/scanAgent_card.scss" afterPath="$PROJECT_DIR$/css/scanAgent_card.scss" />
+      <change beforePath="$PROJECT_DIR$/css/scanAuthorization_succeed.css" afterPath="$PROJECT_DIR$/css/scanAuthorization_succeed.css" />
+      <change beforePath="$PROJECT_DIR$/css/scanAuthorization_succeed.css.map" afterPath="$PROJECT_DIR$/css/scanAuthorization_succeed.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/scanAuthorization_succeed.scss" afterPath="$PROJECT_DIR$/css/scanAuthorization_succeed.scss" />
+      <change beforePath="$PROJECT_DIR$/css/scanLicenses_succeed.css" afterPath="$PROJECT_DIR$/css/scanLicenses_succeed.css" />
+      <change beforePath="$PROJECT_DIR$/css/scanLicenses_succeed.css.map" afterPath="$PROJECT_DIR$/css/scanLicenses_succeed.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/scanLicenses_succeed.scss" afterPath="$PROJECT_DIR$/css/scanLicenses_succeed.scss" />
+      <change beforePath="$PROJECT_DIR$/css/scan_authorization.css" afterPath="$PROJECT_DIR$/css/scan_authorization.css" />
+      <change beforePath="$PROJECT_DIR$/css/scan_authorization.css.map" afterPath="$PROJECT_DIR$/css/scan_authorization.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/scan_authorization.scss" afterPath="$PROJECT_DIR$/css/scan_authorization.scss" />
+      <change beforePath="$PROJECT_DIR$/css/scaningLicenses_error.css" afterPath="$PROJECT_DIR$/css/scaningLicenses_error.css" />
+      <change beforePath="$PROJECT_DIR$/css/scaningLicenses_error.css.map" afterPath="$PROJECT_DIR$/css/scaningLicenses_error.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/scaningLicenses_error.scss" afterPath="$PROJECT_DIR$/css/scaningLicenses_error.scss" />
+      <change beforePath="$PROJECT_DIR$/css/scanning_license.css" afterPath="$PROJECT_DIR$/css/scanning_license.css" />
+      <change beforePath="$PROJECT_DIR$/css/scanning_license.css.map" afterPath="$PROJECT_DIR$/css/scanning_license.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/scanning_license.scss" afterPath="$PROJECT_DIR$/css/scanning_license.scss" />
+      <change beforePath="$PROJECT_DIR$/css/scanning_licenses.css" afterPath="$PROJECT_DIR$/css/scanning_licenses.css" />
+      <change beforePath="$PROJECT_DIR$/css/scanning_licenses.css.map" afterPath="$PROJECT_DIR$/css/scanning_licenses.css.map" />
+      <change beforePath="$PROJECT_DIR$/css/scanning_licenses.scss" afterPath="$PROJECT_DIR$/css/scanning_licenses.scss" />
+      <change beforePath="$PROJECT_DIR$/img/88c3959898d2b9700fab50ea919992be.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/ID _card.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/ZebraScan.png" afterPath="$PROJECT_DIR$/img/ZebraScan.png" />
+      <change beforePath="$PROJECT_DIR$/img/scan_authorization.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/scanning_license.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/授权.png" afterPath="$PROJECT_DIR$/img/scanning_fingerprints.png" />
+      <change beforePath="$PROJECT_DIR$/img/温馨提示.png" afterPath="$PROJECT_DIR$/img/hint.png" />
+      <change beforePath="$PROJECT_DIR$/img/确认.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/组21拷贝2.png" afterPath="$PROJECT_DIR$/img/certificate2.png" />
+      <change beforePath="$PROJECT_DIR$/img/返回.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/img/银行卡.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/insert_card.html" afterPath="$PROJECT_DIR$/insert_card.html" />
       <change beforePath="$PROJECT_DIR$/open_account.html" afterPath="$PROJECT_DIR$/open_account.html" />
+      <change beforePath="$PROJECT_DIR$/open_information.html" afterPath="$PROJECT_DIR$/open_information.html" />
+      <change beforePath="$PROJECT_DIR$/open_materials.html" afterPath="$PROJECT_DIR$/open_materials.html" />
+      <change beforePath="$PROJECT_DIR$/scanAgentCard_succeed.html" afterPath="$PROJECT_DIR$/scanAgentCard_succeed.html" />
+      <change beforePath="$PROJECT_DIR$/scanAgent_card.html" afterPath="$PROJECT_DIR$/scanAgent_card.html" />
+      <change beforePath="$PROJECT_DIR$/scanAuthorization_succeed.html" afterPath="$PROJECT_DIR$/scanAuthorization_succeed.html" />
+      <change beforePath="$PROJECT_DIR$/scanLicenses_succeed.html" afterPath="$PROJECT_DIR$/scanLicenses_succeed.html" />
+      <change beforePath="$PROJECT_DIR$/scan_authorization.html" afterPath="$PROJECT_DIR$/scan_authorization.html" />
+      <change beforePath="$PROJECT_DIR$/scanningLicenses_error.html" afterPath="$PROJECT_DIR$/scanningLicenses_error.html" />
+      <change beforePath="$PROJECT_DIR$/scanning_license.html" afterPath="$PROJECT_DIR$/scanning_license.html" />
+      <change beforePath="$PROJECT_DIR$/scanning_licenses.html" afterPath="$PROJECT_DIR$/scanning_licenses.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,14 +146,104 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.53970224">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file leaf-file-name="card_match.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/card_match.html">
+          <file leaf-file-name="bank_card.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/bank_card.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="216">
-                  <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+                <state relative-caret-position="81">
+                  <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="card_match_new.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/card_match_new.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="27">
+                  <caret line="137" column="30" lean-forward="false" selection-start-line="137" selection-start-column="11" selection-end-line="137" selection-end-column="30" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="card_match_new.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/card_match_new.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="648">
+                  <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bank_card.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/bank_card.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="3024">
+                  <caret line="112" column="28" lean-forward="true" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scanning_licenses.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/scanning_licenses.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="27">
+                  <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="open_account.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/open_account.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scan_authorization.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/scan_authorization.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="card_match.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/card_match.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="4428">
+                  <caret line="164" column="28" lean-forward="true" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="28" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bank_card.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/bank_card.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="189">
+                  <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="openbank_succeed.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/openbank_succeed.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="162">
+                  <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
                   <folding />
                 </state>
               </provider>
@@ -65,12 +252,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="card_match.scss" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/css/card_match.scss">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+          <file leaf-file-name="open_account.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/open_account.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
-                  <caret line="194" column="24" lean-forward="true" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+                <state relative-caret-position="27">
+                  <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="63" />
                   <folding />
                 </state>
               </provider>
@@ -84,9 +271,34 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="SCSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Flashcanvas</find>
+      <find>router</find>
+      <find>swf</find>
+      <find>image</find>
+      <find>&amp;</find>
+      <find>scanLicenses_succeed.html</find>
+      <find>scanning_license.html</find>
+      <find>comCode</find>
+      <find>omCode</find>
+      <find>affirm</find>
+      <find>cardScan_succeed</find>
+      <find>请求失败</find>
+      <find>ajax</find>
+      <find>$.ajax</find>
+      <find>main_middlefctl</find>
+      <find>mapic_rightt</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>请求失败</replace>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,57 +306,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/css/nihao.scss" />
-        <option value="$PROJECT_DIR$/index2.html" />
-        <option value="$PROJECT_DIR$/css/index3.scss" />
-        <option value="$PROJECT_DIR$/index3.html" />
-        <option value="$PROJECT_DIR$/css/index2.scss" />
-        <option value="$PROJECT_DIR$/index4.html" />
-        <option value="$PROJECT_DIR$/css/index4.scss" />
-        <option value="$PROJECT_DIR$/index5.html" />
-        <option value="$PROJECT_DIR$/css/index5.scss" />
-        <option value="$PROJECT_DIR$/css/index6.html" />
-        <option value="$PROJECT_DIR$/index6.html" />
-        <option value="$PROJECT_DIR$/css/index6.scss" />
-        <option value="$PROJECT_DIR$/index7.html" />
-        <option value="$PROJECT_DIR$/css/index7.scss" />
-        <option value="$PROJECT_DIR$/css/index8.scss" />
-        <option value="$PROJECT_DIR$/index8.html" />
+        <option value="$PROJECT_DIR$/js/open_materials.js" />
+        <option value="$PROJECT_DIR$/js/open_information.js" />
+        <option value="$PROJECT_DIR$/js/cardScan_succeed.js" />
+        <option value="$PROJECT_DIR$/js/scanAgentCard_succeed.js" />
+        <option value="$PROJECT_DIR$/js/scanAuthorization_succeed.js" />
+        <option value="$PROJECT_DIR$/js/scanLicenses_succeed.js" />
+        <option value="$PROJECT_DIR$/js/cardScansd_succeed.js" />
+        <option value="$PROJECT_DIR$/js/cardScans_succeed.js" />
+        <option value="$PROJECT_DIR$/js/scanAgent_card.js" />
+        <option value="$PROJECT_DIR$/js/password_page.js" />
+        <option value="$PROJECT_DIR$/certificates_match_new.html" />
+        <option value="$PROJECT_DIR$/card_match_new.html" />
+        <option value="$PROJECT_DIR$/js/inserts_card.js" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/css/open_information.scss" />
+        <option value="$PROJECT_DIR$/css/open_materials.scss" />
+        <option value="$PROJECT_DIR$/css/scanning_license.scss" />
+        <option value="$PROJECT_DIR$/js/scanning_license.js" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/card_error.html" />
-        <option value="$PROJECT_DIR$/card_successful.html" />
-        <option value="$PROJECT_DIR$/insert_card.html" />
-        <option value="$PROJECT_DIR$/open_information.html" />
-        <option value="$PROJECT_DIR$/open_materials.html" />
-        <option value="$PROJECT_DIR$/scanning_ license.html" />
+        <option value="$PROJECT_DIR$/css/take_idCard.scss" />
+        <option value="$PROJECT_DIR$/css/card_error.scss" />
+        <option value="$PROJECT_DIR$/css/card_match.scss" />
+        <option value="$PROJECT_DIR$/css/card_scan.scss" />
+        <option value="$PROJECT_DIR$/css/card_successful.scss" />
+        <option value="$PROJECT_DIR$/css/cardScan_error.scss" />
+        <option value="$PROJECT_DIR$/css/cardScan_succeed.scss" />
+        <option value="$PROJECT_DIR$/css/cardScans_succeed.scss" />
+        <option value="$PROJECT_DIR$/css/certificates_match.scss" />
+        <option value="$PROJECT_DIR$/css/index.scss" />
+        <option value="$PROJECT_DIR$/css/insert_card.scss" />
+        <option value="$PROJECT_DIR$/css/managerAuthorization.scss" />
+        <option value="$PROJECT_DIR$/css/openbank_succeed.scss" />
+        <option value="$PROJECT_DIR$/css/scan_authorization.scss" />
+        <option value="$PROJECT_DIR$/css/scanAgent_card.scss" />
+        <option value="$PROJECT_DIR$/css/scanAgentCard_succeed.scss" />
+        <option value="$PROJECT_DIR$/css/scanAuthorization_succeed.scss" />
+        <option value="$PROJECT_DIR$/css/scaningLicenses_error.scss" />
+        <option value="$PROJECT_DIR$/css/scanLicenses_succeed.scss" />
+        <option value="$PROJECT_DIR$/css/scanning_licenses.scss" />
         <option value="$PROJECT_DIR$/open_account.html" />
         <option value="$PROJECT_DIR$/css/open_account.scss" />
-        <option value="$PROJECT_DIR$/scanning_licenses.html" />
-        <option value="$PROJECT_DIR$/css/scanning_licenses.scss" />
-        <option value="$PROJECT_DIR$/scanLicenses_succeed.html" />
-        <option value="$PROJECT_DIR$/css/scanLicenses_succeed.scss" />
-        <option value="$PROJECT_DIR$/css/scaningLicenses_error.scss" />
-        <option value="$PROJECT_DIR$/scanningLicenses_error.html" />
-        <option value="$PROJECT_DIR$/css/card_scan.scss" />
-        <option value="$PROJECT_DIR$/card_scan.html" />
-        <option value="$PROJECT_DIR$/css/cardScan_succeed.scss" />
-        <option value="$PROJECT_DIR$/cardScan_succeed.html" />
-        <option value="$PROJECT_DIR$/cardScan_error.html" />
-        <option value="$PROJECT_DIR$/css/cardScan_error.scss" />
-        <option value="$PROJECT_DIR$/certificates_match.html" />
-        <option value="$PROJECT_DIR$/css/certificates_match.scss" />
-        <option value="$PROJECT_DIR$/scan_authorization.html" />
-        <option value="$PROJECT_DIR$/css/scan_authorization.scss" />
-        <option value="$PROJECT_DIR$/img/scanAuthorization_succeed.html" />
-        <option value="$PROJECT_DIR$/scanAuthorization_succeed.html" />
-        <option value="$PROJECT_DIR$/css/scanAuthorization_succeed.scss" />
-        <option value="$PROJECT_DIR$/css/scanAgent_card.scss" />
-        <option value="$PROJECT_DIR$/scanAgent_card.html" />
-        <option value="$PROJECT_DIR$/scanAgentCard_succeed.html" />
-        <option value="$PROJECT_DIR$/css/scanAgentCard_succeed.scss" />
-        <option value="$PROJECT_DIR$/img/card_match.html" />
-        <option value="$PROJECT_DIR$/css/card_match.scss" />
-        <option value="$PROJECT_DIR$/card_match.html" />
+        <option value="$PROJECT_DIR$/css/certificates_match_new.scss" />
+        <option value="$PROJECT_DIR$/js/certificates_match_new.js" />
+        <option value="$PROJECT_DIR$/css/password_page.scss" />
+        <option value="$PROJECT_DIR$/js/bank_card.js" />
+        <option value="$PROJECT_DIR$/js/openbank_succeed.js" />
+        <option value="$PROJECT_DIR$/bank_card.html" />
+        <option value="$PROJECT_DIR$/openbank_succeed.html" />
+        <option value="$PROJECT_DIR$/css/bank_card.scss" />
+        <option value="$PROJECT_DIR$/js/card_match_new.js" />
+        <option value="$PROJECT_DIR$/css/card_match_new.scss" />
       </list>
     </option>
   </component>
@@ -155,10 +367,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-140" />
-    <option name="y" value="164" />
+    <option name="x" value="-67" />
+    <option name="y" value="108" />
     <option name="width" value="1932" />
-    <option name="height" value="600" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -178,6 +390,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,12 +403,16 @@
               <item name="openbank" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="openbank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="openbank" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,7 +420,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/web/Ruby25-x64/bin/scss.bat" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
@@ -223,6 +440,29 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="card_match_new.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/openbank/card_match_new.html" />
+    <configuration name="certificates_match_new.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/openbank/certificates_match_new.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/openbank/index.html" />
+    <configuration name="open_account.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/openbank/open_account.html" />
+    <configuration name="card_match_new.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="card_match_new.js" working-dir="$PROJECT_DIR$/js" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.certificates_match_new.html" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.card_match_new.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.card_match_new.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.open_account.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.open_account.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.card_match_new.html" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.card_match_new.js" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.certificates_match_new.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -250,23 +490,55 @@
       <workItem from="1523973734036" duration="7256000" />
       <workItem from="1524013508316" duration="21111000" />
       <workItem from="1524041583984" duration="6930000" />
+      <workItem from="1524061812041" duration="8428000" />
+      <workItem from="1524102134585" duration="181000" />
+      <workItem from="1524102774875" duration="17374000" />
+      <workItem from="1524132471437" duration="3288000" />
+      <workItem from="1524152755293" duration="2735000" />
+      <workItem from="1524186388973" duration="15002000" />
+      <workItem from="1524293961456" duration="4932000" />
+      <workItem from="1524360671903" duration="5983000" />
+      <workItem from="1524366736481" duration="25333000" />
+      <workItem from="1524453631204" duration="12874000" />
+      <workItem from="1524488161356" duration="3331000" />
+      <workItem from="1524533161637" duration="25642000" />
+      <workItem from="1524579871493" duration="3640000" />
+      <workItem from="1524620147549" duration="16053000" />
+      <workItem from="1524642463472" duration="13000" />
+      <workItem from="1524642540069" duration="13339000" />
+      <workItem from="1524664794424" duration="1355000" />
+      <workItem from="1524704940904" duration="31937000" />
+      <workItem from="1524752538063" duration="8216000" />
+      <workItem from="1524762250181" duration="235000" />
+      <workItem from="1524791147541" duration="19992000" />
+      <workItem from="1524816568245" duration="9881000" />
+      <workItem from="1524826570822" duration="3290000" />
+      <workItem from="1524838405069" duration="4928000" />
+      <workItem from="1524877365833" duration="21800000" />
+      <workItem from="1524910637486" duration="1511000" />
+      <workItem from="1524912189047" duration="2526000" />
+      <workItem from="1525223025384" duration="2715000" />
+      <workItem from="1525228286895" duration="16764000" />
+      <workItem from="1525257381393" duration="22000" />
+      <workItem from="1525257869495" duration="9000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128666000" />
+    <option name="totallyTimeSpent" value="411995000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15729167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28176796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16574585" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28324324" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -274,7 +546,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34906697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3480663" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -282,15 +554,15 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16574585" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28176796" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27845305" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19322917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34906697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3480663" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -304,356 +576,374 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/index7.scss" />
-    <entry file="file://$PROJECT_DIR$/css/index8.scss" />
-    <entry file="file://$PROJECT_DIR$/card_successful.html">
+    <entry file="file://$PROJECT_DIR$/js/scanAgentCard_succeed.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="76" lean-forward="true" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+        <state relative-caret-position="-13">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scanLicenses_succeed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/card_match_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="22" lean-forward="false" selection-start-line="28" selection-start-column="22" selection-end-line="28" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/certificates_match_new.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="59" column="10" lean-forward="false" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/card_error.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/inserts_card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="9" column="10" lean-forward="false" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2916">
+          <caret line="108" column="42" lean-forward="false" selection-start-line="108" selection-start-column="42" selection-end-line="108" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/blb.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scanning_license.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scanning_license.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open_information.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="77" lean-forward="true" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open_materials.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="32" lean-forward="true" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/open_account.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="404" column="35" lean-forward="true" selection-start-line="404" selection-start-column="35" selection-end-line="404" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scanning_license.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3645">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/open_account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="166" column="18" lean-forward="true" selection-start-line="166" selection-start-column="18" selection-end-line="166" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/安装包/Photoshop_Set-Up/Photoshop_Set-Up/Photoshop CC 2018最新官方版免费下载.url">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/scanning_license.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/ZebraScan.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/licenses.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scaningLicenses_error.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3051">
-          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/ID _card.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/IDcard.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cardScan_error.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="113" column="24" lean-forward="true" selection-start-line="113" selection-start-column="24" selection-end-line="113" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cardScan_error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/card_error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="573">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
+        <state relative-caret-position="702">
+          <caret line="26" column="53" lean-forward="true" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/card_error.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/insert_card.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="126" column="25" lean-forward="true" selection-start-line="126" selection-start-column="25" selection-end-line="126" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/certificate.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanningLicenses_error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanning_licenses.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="51" column="10" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scanning_licenses.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="113" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/scan_authorization.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scan_authorization.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="25" column="55" lean-forward="true" selection-start-line="25" selection-start-column="55" selection-end-line="25" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scan_authorization.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1065">
-          <caret line="109" column="40" lean-forward="true" selection-start-line="109" selection-start-column="40" selection-end-line="109" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanning_license.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="24" column="44" lean-forward="true" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/openbank_file/scanAuthorization_succeed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanLicenses_succeed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="44" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="54" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scanLicenses_succeed.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="113" column="24" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/authorization.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scanAuthorization_succeed.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="101" column="29" lean-forward="true" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanAuthorization_succeed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="19" column="59" lean-forward="false" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/授权.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/insert_card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="23" column="59" lean-forward="true" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/card_scan.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="22" column="55" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="51" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/card_scan.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="188" column="32" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scanAgent_card.html">
+    <entry file="file://$PROJECT_DIR$/css/card_successful.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/scanAgent_card.scss">
+    <entry file="file://$PROJECT_DIR$/css/cardScan_error.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="188" column="32" lean-forward="true" selection-start-line="188" selection-start-column="32" selection-end-line="188" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/cardScan_succeed.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="112" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="210" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/img/agentCard.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/scanAgentCard_succeed.scss">
+    <entry file="file://$PROJECT_DIR$/css/cardScans_succeed.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="94" column="9" lean-forward="true" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cardScan_succeed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scanAgentCard_succeed.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/card_match.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/certificates_match.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" column="59" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
-          <folding />
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/certificates_match.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="134" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="217" selection-end-column="0" />
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanAgent_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanning_license.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scan_authorization.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/openbank_succeed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/open_materials.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/open_information.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/managerAuthorization.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/insert_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/take_idCard.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanLicenses_succeed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scaningLicenses_error.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanAuthorization_succeed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanAgentCard_succeed.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/open_account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="122" column="48" lean-forward="false" selection-start-line="122" selection-start-column="48" selection-end-line="122" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/card_match.html">
+    <entry file="file://$PROJECT_DIR$/css/open_account.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="29" column="42" lean-forward="true" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="42" />
+        <state relative-caret-position="135">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/certificates_match_new.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="127" column="30" lean-forward="true" selection-start-line="127" selection-start-column="30" selection-end-line="127" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/certificates_match_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/password_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/password_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/password_page.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="128" column="36" lean-forward="true" selection-start-line="128" selection-start-column="36" selection-end-line="128" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/openbank_succeed.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="30" lean-forward="true" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/scanning_licenses.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="146" column="28" lean-forward="true" selection-start-line="146" selection-start-column="28" selection-end-line="146" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/openbank_succeed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="67" lean-forward="true" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/card_match_new.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/card_match.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="194" column="24" lean-forward="true" selection-start-line="194" selection-start-column="24" selection-end-line="194" selection-end-column="24" />
+        <state relative-caret-position="4428">
+          <caret line="164" column="28" lean-forward="true" selection-start-line="164" selection-start-column="12" selection-end-line="164" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bank_card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bank_card.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3024">
+          <caret line="112" column="28" lean-forward="true" selection-start-line="112" selection-start-column="28" selection-end-line="112" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scan_authorization.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/scanning_licenses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/open_account.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/bank_card.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="38" lean-forward="false" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/card_match_new.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="137" column="30" lean-forward="false" selection-start-line="137" selection-start-column="11" selection-end-line="137" selection-end-column="30" />
           <folding />
         </state>
       </provider>

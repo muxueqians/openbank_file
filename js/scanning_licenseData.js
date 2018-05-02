@@ -1,0 +1,20 @@
+window.onload=function(){
+    $('.main_picture').bind('click',function(){
+       $.ajax({
+           type:"post",
+           url:"/p-account/checkQRCode.mvc",
+           dataType:"json",
+           data:{"company_name":"paradigm","reg_address":"上地东路","telephone":"18524817052","law_persion":"万洋","identity_card":"142225186451854321"},
+           success:function(data){
+               console.log(data);
+               if(data==0){
+                   window.location.href="insert_card.html";
+               }else{
+                   alert("请使用合法营业执照扫描");
+                   window.location.href="scanning_license.html";
+               }
+           }
+       })
+        $(this).unbind("click");
+   })
+};

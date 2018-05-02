@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/open_account.css" />
+    <script src="js/Scripts/jquery-1.4.1.js" type="text/javascript"></script>
+    <script src="js/Scripts/jSignature/jSignature.min.js" type="text/javascript"></script>
+    <script src="js/Scripts/jSignature/flashcanvas.js" type="text/javascript"></script>
+    <script src="js/Scripts/jSignature/jSignature.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/Scripts/excanvas.compiled.js"></script>
+    <!--<script type="text/javascript" src="js/jquery.min.js"></script>-->
+    <script type="text/javascript" src="js/open_account.js"></script>
 </head>
 <body>
    <div class="box">
@@ -17,7 +24,7 @@
                         <span class="material">开户材料</span>
                     </div>
                     <div class="hcr">
-                        <a href="index1.html"><img src="img/return_key.png"/></a>
+                        <a href="#" onclick="ret(); return false"><img src="img/return_key.png"/></a>
                         <i class="linellae"></i>
                         <span class="timed">
                                <em id="timesd">180</em>
@@ -27,7 +34,7 @@
                 </div>
             </div>
             <div class="main">
-                <form action="/api/openbank" method="post" >
+                <!--<form action="/api/openbank" method="post" >-->
                     <div class="main_content">
                         <div class="main_title">企业信息</div>
                         <div class="main_top">
@@ -36,25 +43,25 @@
                                     <div class="main_toptt">
                                         <div class="matoptl">
                                             <label for="companyName">企业名称：</label>
-                                            <input type=" text" id="companyName" placeholder="请输入企业名称"/>
+                                            <input type=" text" id="companyName"  disabled="disabled"/>
                                         </div>
                                         <div class="matoptr">
                                             <label for="registerAd">注册地址：</label>
-                                            <input type=" text" id="registerAd" placeholder="请输入注册地址"/>
+                                            <input type=" text" id="registerAd"  disabled="disabled" />
                                         </div>
                                     </div>
                                     <div class="main_toptb">
                                         <div class="matoptbl">
                                             <label for="contactPhone">联系电话：</label>
-                                            <input type=" text" id="contactPhone" placeholder="请输入您的联系电话"/>
+                                            <input type=" text" id="contactPhone" disabled="disabled" />
                                         </div>
                                         <div class="matoptbm">
                                             <label for="realName">法人姓名：</label>
-                                            <input type=" text" id="realName" placeholder="请输入法人的姓名"/>
+                                            <input type=" text" id="realName"  disabled="disabled" />
                                         </div>
                                         <div class="matoptbb">
                                             <label for="cardNo">法人身份证号：</label>
-                                            <input type=" text" id="cardNo" placeholder="请输入法人身份证号"/>
+                                            <input type=" text" id="cardNo"  disabled="disabled"/>
                                         </div>
                                     </div>
                                 </div>
@@ -67,43 +74,43 @@
                                 <div class="main_middlet">
                                     <div class="main_middletl">
                                         <label class="realChecktype">对账方式：</label>
-                                        <input type="radio" name="Rad" value="paper_reconciliation" ><span>纸质对账</span>
+                                        <input type="radio" name="Rad" value="0" checked="checked"/><span>纸质对账</span>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <input type="radio" name="Rad" value="electronic_check" ><span>电子对账</span>
+                                        <input type="radio" name="Rad" value="1"/><span>电子对账</span>
                                     </div>
                                     <div class="main_middletr">
                                         <label class="zDMethods">对账单送达方式：</label>
-                                        <input type="radio" name="Radm" value="entrust_courier" ><span>委托快递</span>
+                                        <input type="radio" name="Radm" value="0" checked="checked" /><span>委托快递</span>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <input type="radio" name="Radm" value="self_pickup" ><span>客户自取</span>
+                                        <input type="radio" name="Radm" value="1" /><span>客户自取</span>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <input type="radio" name="Radm" value="door_reconciliation" ><span>上门对账</span>
+                                        <input type="radio" name="Radm" value="2"/><span>上门对账</span>
                                     </div>
                                 </div>
                                 <div class="main_middlem">
                                     <label class="checkFrequency">金额对账频率：</label>
-                                    <input type="radio" name="Radme" value="bank_frequency" ><span>按银行确定的对账频率</span>
+                                    <input type="radio" name="Radme" value="0" checked="checked" /><span>按银行确定的对账频率</span>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="radio" name="Radme" value="per_mensem" ><span>按月</span>
+                                    <input type="radio" name="Radme" value="1" /><span>按月</span>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="radio" name="Radme" value="per_quarterly" ><span>按季</span>
+                                    <input type="radio" name="Radme" value="2" /><span>按季</span>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="radio" name="Radme" value="per_halfyear" ><span>按半年</span>
+                                    <input type="radio" name="Radme" value="3" /><span>按半年</span>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="radio" name="Radme" value="per_year" ><span>按年</span>
+                                    <input type="radio" name="Radme" value="4" /><span>按年</span>
                                 </div>
                                 <div class="main_middleb">
                                     <div class="main_middlebl">
                                         <label for="checkPerson">对账联系人：</label>
-                                        <input type=" text" id="checkPerson" placeholder="请输入对账联系人的姓名"/>
+                                        <input type="text" id="checkPerson" required="required"  placeholder="请输入对账联系人的姓名"/>
                                     </div>
                                     <div class="main_middlebm">
                                         <label for="checkPhone">对账联系电话：</label>
-                                        <input type=" text" id="checkPhone" placeholder="请输入对账联系人的联系电话"/>
+                                        <input type="text" id="checkPhone" required="required" placeholder="请输入对账联系人的联系电话"/>
                                     </div>
                                     <div class="main_middlebr">
                                         <label for="checkEmail">对账单收件地址（邮箱）：</label>
-                                        <input type=" text" id="checkEmail" placeholder="请输入邮箱地址"/>
+                                        <input type="text" id="checkEmail" required="required"  placeholder="请输入邮箱地址"/>
                                     </div>
                                 </div>
                             </div>
@@ -115,22 +122,22 @@
                                 <div class="main_middlefct">
                                     <div class="main_middlefctl">
                                         <label class="transactionPer">当前办理人：</label>
-                                        <input type="radio" name="Rade" value="realName" ><span>法人</span>
+                                        <input type="radio" name="Rade" value="0" checked="checked" /><span>法人</span>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <input type="radio" name="Rade" value="electronic_check" ><span>代办人</span>
+                                        <input type="radio" name="Rade" value="1" /><span>代办人</span>
                                     </div>
                                     <div class="main_middlefctr">
                                         <label class="transactionTime">印鉴办理时间：</label>
-                                        <input type="radio" name="Radf" value="once_transaction" ><span>本次办理（需携带公章）</span>
+                                        <input type="radio" name="Radf" value="0" checked="checked"/><span>本次办理（需携带公章）</span>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <input type="radio" name="Radf" value="later_transaction" ><span>另行补办（办理前无法激活账户）</span>
+                                        <input type="radio" name="Radf" value="1" /><span>另行补办（办理前无法激活账户）</span>
                                     </div>
                                 </div>
                                 <div class="main_middlefcb">
                                     <label class="openCardMethods">《开户许可证》送达方式：</label>
-                                    <input type="radio" name="Rade" value="entrust_courier" ><span>委托快递</span>
+                                    <input type="radio" name="Radek" value="0" checked="checked"/><span>委托快递</span>
                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                    <input type="radio" name="Rade" value="self_pickup" ><span>客户自取</span>
+                                    <input type="radio" name="Radek" value="1" /><span>客户自取</span>
                                 </div>
                             </div>
                         </div>
@@ -146,14 +153,25 @@
                                     </div>
                                 </div>
                                 <div class="signature_block">
-                                    <label for="useName"><span>签字栏</span></label>
-                                    <input type="text" id="useName"/>
+                                    <!--<label for="useName"><span>签字栏</span></label>-->
+                                    <!--<input type="text" id="useName"/>-->
+                                    <label><span>签字栏</span></label>
+                                    <div id="signatures">
+                                        <fieldset style="border: 1px solid green; width: 100%; height:100%;">
+                                            <!--<legend>签名区域</legend>-->
+                                            <div id="signature"  style="height: 100%;">
+                                            </div>
+                                        </fieldset>
+                                    </div>
+                                    <div id="image" style="display:none"></div>
+                                    <div id="img_src" style="display:none;"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="affirm"><input type="submit" value="确认" style="color:#ffffff;font-size:14px;"/></div>
-                </form>
+                    <!--<div id="affirm"><input  value="确认" style="color:#ffffff;font-size:14px;"/></div>-->
+                    <div id="affirm">确认</div>
+                <!--</form>-->
             </div>
             <div class="footer">
                 <div class="foot_left">

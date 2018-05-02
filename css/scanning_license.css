@@ -3,6 +3,12 @@ html, body {
   margin: 0;
   font-family: "Microsoft YaHei"; }
 
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
 html, body {
   width: 100%;
   height: 100%; }
@@ -84,11 +90,19 @@ html, body {
           margin: 40px auto 0px;
           overflow: hidden; }
           html .box .interior .content .main .main_picture, body .box .interior .content .main .main_picture {
-            width: 474px;
-            height: 273px;
+            width: 280px;
+            height: 280px;
             background: url("../img/ZebraScan.png");
             background-repeat: no-repeat;
-            margin: 140px auto 80px; }
+            margin: 140px auto 80px;
+            cursor: pointer;
+            overflow: hidden; }
+            html .box .interior .content .main .main_picture span, body .box .interior .content .main .main_picture span {
+              display: block;
+              width: 300px;
+              height: 1px;
+              margin: 0 auto;
+              background-color: #c2d6a1; }
           html .box .interior .content .main .main_icf, body .box .interior .content .main .main_icf {
             width: 500px;
             height: 100px;
@@ -105,22 +119,13 @@ html, body {
               height: 62px;
               line-height: 62px;
               text-align: center;
+              font-size: 24px;
               font-family: "Microsoft YaHei";
               color: #ffffff; }
-          html .box .interior .content .main .affirm, body .box .interior .content .main .affirm {
-            width: 260px;
-            height: 40px;
-            text-align: center;
-            line-height: 40px;
-            background-color: #FFA500;
-            margin: 25px auto 40px;
-            font-family: "Microsoft YaHei";
-            color: #ffffff; }
         html .box .interior .content .footer, body .box .interior .content .footer {
           width: 100%;
           height: 52px;
           position: relative;
-          postion: absloute;
           bottom: 0px;
           background: url("../img/foot.png");
           background-repeat: no-repeat; }
@@ -163,4 +168,4 @@ html, body {
               margin: 12px 5px 12px 20px;
               float: left; }
 
-/*# sourceMappingURL=index4.css.map */
+/*# sourceMappingURL=scanning_license.css.map */

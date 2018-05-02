@@ -1,4 +1,6 @@
 html,body{padding:0;margin:0;font-family:"Microsoft YaHei";}
+a{text-decoration: none}
+img{border:none}
 html,body{
   width:100%;
   height:100%;
@@ -101,55 +103,66 @@ html,body{
           margin:40px auto 0px;
           overflow: hidden;
           .main_picture{
-            width:1000px;
-            height:350px;
+            width:780px;
+            height:580px;
             //border:1px solid red;
-            margin:100px auto;
-            .mainLicenses,.mainCard{
-              width:480px;
-              height:350px;
-              background:url("../img/certificate.png");
+            margin:30px auto;
+            .mapic_left,.mapic_right{
+              width:380px;
+              height:580px;
               //border:1px solid red;
               float:left;
-              position:relative;
-              .mafont{
-                width:100%;
-                height:50px;
-                text-align: center;
-                line-height: 50px;
-                font-family:"Microsoft YaHei";
-                color:#ffffff;
-                font-size:24px;
+              .blicense,.realNameCard,.authouization,.agentCard{
+                width:380px;
+                height:280px;
                 //border:1px solid red;
-                position:absolute;
-                top:0;
-                left:0
+                position:relative;
+                background:url("../img/certificate2.png");
+                background-repeat: no-repeat;
+                .head_title{
+                  width:380px;
+                  height:48px;
+                  text-align: center;
+                  line-height: 48px;
+                  font-size: 18px;
+                  color:#ffffff;
+                  position: absolute;
+                  top:0;
+                  left:0;
+                }
+                .certificate_box{
+                  width:168px;
+                  //height:226px;
+                  height:186px;
+                  padding-top:40px;
+                  padding-left:80px;
+                  //border:1px solid pink;
+                  position: absolute;
+                  top:48px;
+                  left:6px;
+                }
+                .autPer{
+                  padding-top:28px;
+                  padding-left:100px;
+                }
               }
-              .licensesCard{
-                width:468px;
-                height:294px;
-                //border:1px solid red;
-                position:absolute;
-                top:50px;
-                left:6px;
+              .realNameCard,.agentCard{
+                margin-top:20px;
               }
             }
-            .mainCard{
+            .mapic_right{
               float:right;
-              //margin-left:40px;
             }
           }
-          .affirm{
+          #affirm{
             width:260px;
             height:40px;
             text-align: center;
             line-height: 40px;
-            background-color:#FFA500;
+            background-color:#f49e17;
             //margin-bottom:45px;
             margin:25px auto 40px;
-            //position:absolute;
-            //left:522px;
-            //bottom:45px;
+            cursor: pointer;
             font-family:"Microsoft YaHei";
             color:#ffffff;
           }

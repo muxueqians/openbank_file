@@ -1,4 +1,6 @@
 html,body{padding:0;margin:0;font-family:"Microsoft YaHei";}
+a{text-decoration: none}
+img{border:none}
 html,body{
   width:100%;
   height:100%;
@@ -105,8 +107,8 @@ html,body{
           //position:relative;
           .main_picture{
             width:295px;
-            height:249px;
-            background:url("../img/ID _card.png");
+            height:231px;
+            background:url("../img/ID_cardr.gif");
             background-repeat:no-repeat;
             margin:140px auto 80px;
           }
@@ -129,29 +131,27 @@ html,body{
               line-height: 62px;
               text-align: center;
               font-family:"Microsoft YaHei";
+              font-size:24px;
               color:#ffffff;
             }
           }
-          .affirm{
+          #affirm{
             width:260px;
             height:40px;
             text-align: center;
             line-height: 40px;
             background-color:#FFA500;
-            //margin-bottom:45px;
-            margin:25px auto 40px;
-            //position:absolute;
-            //left:522px;
-            //bottom:45px;
+            margin:91px auto 40px;
             font-family:"Microsoft YaHei";
             color:#ffffff;
+            cursor: pointer;
           }
         }
         .footer{
           width:100%;
           height:52px;
           position:relative;
-          postion:absloute;
+          //postion:absloute;
           bottom:0px;
           background:url("../img/foot.png");
           background-repeat:no-repeat;

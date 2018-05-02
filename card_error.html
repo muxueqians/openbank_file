@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" type="text/css" href="css/card_error.css" />
+    <script type="text/javascript" src="js/card_error.js"></script>
 </head>
 <body>
 <div class="box">
@@ -17,7 +18,7 @@
                         <span class="material">插入身份证</span>
                     </div>
                     <div class="hcr">
-                        <a href="index1.html"><img src="img/return_key.png"/></a>
+                        <a href="#" onclick="ret(); return false"><img src="img/return_key.png"/></a>
                         <i class="linellae"></i>
                         <span class="timed">
                                <em id="timesd">180</em>
@@ -33,7 +34,7 @@
                     <i class="main_ic"></i>
                     <span class="main_ft">身份证非法人身份证，请插入正确的法人身份证</span>
                 </div>
-                <div class="affirm">确认</div>
+                <div id="affirm">确认</div>
             </div>
             <div class="footer">
                 <div class="foot_left">

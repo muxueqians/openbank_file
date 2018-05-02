@@ -3,6 +3,16 @@ html, body {
   margin: 0;
   font-family: "Microsoft YaHei"; }
 
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
+input[type="radio"] {
+  background: transparent;
+  border: 0; }
+
 html, body {
   width: 100%;
   height: 100%; }
@@ -187,11 +197,10 @@ html, body {
                       color: #333333;
                       font-size: 14px; }
                     html .box .interior .content .main .main_content .main_middle .main_middlec .main_middlet .main_middletl input, html .box .interior .content .main .main_content .main_middle .main_middlec .main_middlet .main_middletr input, body .box .interior .content .main .main_content .main_middle .main_middlec .main_middlet .main_middletl input, body .box .interior .content .main .main_content .main_middle .main_middlec .main_middlet .main_middletr input {
-                      margin-right: 10px;
                       width: 18px;
                       height: 18px;
-                      border: 1px solid #434343;
-                      vertical-align: text-bottom; }
+                      vertical-align: middle;
+                      margin: 1px 10px 3px 0px; }
                   html .box .interior .content .main .main_content .main_middle .main_middlec .main_middlet .main_middletr, body .box .interior .content .main .main_content .main_middle .main_middlec .main_middlet .main_middletr {
                     width: 480px; }
                 html .box .interior .content .main .main_content .main_middle .main_middlec .main_middlem, body .box .interior .content .main .main_content .main_middle .main_middlec .main_middlem {
@@ -204,11 +213,10 @@ html, body {
                     color: #333333;
                     font-size: 14px; }
                   html .box .interior .content .main .main_content .main_middle .main_middlec .main_middlem input, body .box .interior .content .main .main_content .main_middle .main_middlec .main_middlem input {
-                    margin-right: 10px;
                     width: 18px;
                     height: 18px;
-                    border: 1px solid #434343;
-                    vertical-align: text-bottom; }
+                    vertical-align: middle;
+                    margin: 1px 10px 3px 0px; }
                 html .box .interior .content .main .main_content .main_middle .main_middlec .main_middleb, body .box .interior .content .main .main_content .main_middle .main_middlec .main_middleb {
                   width: 100%;
                   height: 32px;
@@ -262,13 +270,12 @@ html, body {
                       color: #333333;
                       font-size: 14px; }
                     html .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefct .main_middlefctl input, html .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefct .main_middlefctr input, body .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefct .main_middlefctl input, body .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefct .main_middlefctr input {
-                      margin-right: 10px;
                       width: 18px;
                       height: 18px;
-                      border: 1px solid #434343;
-                      vertical-align: text-bottom; }
+                      vertical-align: middle;
+                      margin: 1px 10px 3px 0px; }
                   html .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefct .main_middlefctr, body .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefct .main_middlefctr {
-                    width: 574px; }
+                    width: 576px; }
                 html .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefcb, body .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefcb {
                   margin-top: 15px;
                   width: 100%;
@@ -279,11 +286,10 @@ html, body {
                     color: #333333;
                     font-size: 14px; }
                   html .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefcb input, body .box .interior .content .main .main_content .main_middlef .main_middlefc .main_middlefcb input {
-                    margin-right: 10px;
                     width: 18px;
                     height: 18px;
-                    border: 1px solid #434343;
-                    vertical-align: text-bottom; }
+                    vertical-align: middle;
+                    margin: 1px 10px 3px 0px; }
             html .box .interior .content .main .main_content .main_bottom, body .box .interior .content .main .main_content .main_bottom {
               width: 100%;
               height: 134px;
@@ -296,7 +302,7 @@ html, body {
                 margin: 10px 10px;
                 background-color: #ffffff; }
                 html .box .interior .content .main .main_content .main_bottom .transaction_affirm .account_statement, body .box .interior .content .main .main_content .main_bottom .transaction_affirm .account_statement {
-                  width: 75%;
+                  width: 70%;
                   height: 112px;
                   float: left; }
                   html .box .interior .content .main .main_content .main_bottom .transaction_affirm .account_statement .account_statementc, body .box .interior .content .main .main_content .main_bottom .transaction_affirm .account_statement .account_statementc {
@@ -310,10 +316,9 @@ html, body {
                       letter-spacing: 2px; }
                     html .box .interior .content .main .main_content .main_bottom .transaction_affirm .account_statement .account_statementc p, body .box .interior .content .main .main_content .main_bottom .transaction_affirm .account_statement .account_statementc p {
                       margin: 0;
-                      text-indent: 32px;
-                      letter-spacing: 1px; }
+                      text-indent: 32px; }
                 html .box .interior .content .main .main_content .main_bottom .transaction_affirm .signature_block, body .box .interior .content .main .main_content .main_bottom .transaction_affirm .signature_block {
-                  width: 24%;
+                  width: 30%;
                   height: 112px;
                   float: left; }
                   html .box .interior .content .main .main_content .main_bottom .transaction_affirm .signature_block label, body .box .interior .content .main .main_content .main_bottom .transaction_affirm .signature_block label {
@@ -331,25 +336,20 @@ html, body {
                       width: 20px;
                       height: 80px;
                       margin: 16px auto; }
-                  html .box .interior .content .main .main_content .main_bottom .transaction_affirm .signature_block input, body .box .interior .content .main .main_content .main_bottom .transaction_affirm .signature_block input {
+                  html .box .interior .content .main .main_content .main_bottom .transaction_affirm .signature_block #signatures, body .box .interior .content .main .main_content .main_bottom .transaction_affirm .signature_block #signatures {
                     width: 80%;
                     height: 105px;
-                    outline: none;
-                    border: 0; }
-          html .box .interior .content .main .affirm, body .box .interior .content .main .affirm {
+                    float: right; }
+          html .box .interior .content .main #affirm, body .box .interior .content .main #affirm {
             width: 260px;
             height: 40px;
             text-align: center;
             line-height: 40px;
             margin: 10px auto 40px;
             font-family: "Microsoft YaHei";
-            color: #ffffff; }
-            html .box .interior .content .main .affirm input, body .box .interior .content .main .affirm input {
-              width: 100%;
-              height: 100%;
-              border: 0;
-              outline: none;
-              background-color: #FFA500; }
+            color: #ffffff;
+            cursor: pointer;
+            background-color: #f49e17; }
         html .box .interior .content .footer, body .box .interior .content .footer {
           width: 100%;
           height: 52px;

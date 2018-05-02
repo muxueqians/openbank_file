@@ -3,6 +3,12 @@ html, body {
   margin: 0;
   font-family: "Microsoft YaHei"; }
 
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
 html, body {
   width: 100%;
   height: 100%; }
@@ -91,6 +97,7 @@ html, body {
               width: 480px;
               height: 350px;
               background: url("../img/certificate.png");
+              overflow: hidden;
               float: left;
               position: relative; }
               html .box .interior .content .main .main_picture .mainLicenses .mafont, html .box .interior .content .main .main_picture .mainCard .mafont, body .box .interior .content .main .main_picture .mainLicenses .mafont, body .box .interior .content .main .main_picture .mainCard .mafont {
@@ -105,28 +112,29 @@ html, body {
                 top: 0;
                 left: 0; }
               html .box .interior .content .main .main_picture .mainLicenses .licensesCard, html .box .interior .content .main .main_picture .mainCard .licensesCard, body .box .interior .content .main .main_picture .mainLicenses .licensesCard, body .box .interior .content .main .main_picture .mainCard .licensesCard {
-                width: 468px;
-                height: 294px;
+                width: 308px;
+                height: 194px;
+                padding: 40px 80px;
                 position: absolute;
                 top: 50px;
                 left: 6px; }
             html .box .interior .content .main .main_picture .mainCard, body .box .interior .content .main .main_picture .mainCard {
               float: right; }
-          html .box .interior .content .main .affirm, body .box .interior .content .main .affirm {
+          html .box .interior .content .main #affirm, body .box .interior .content .main #affirm {
             width: 260px;
             height: 40px;
             text-align: center;
             line-height: 40px;
-            background-color: #FFA500;
-            margin: 25px auto 40px;
+            background-color: #f49e17;
+            margin: 192px auto 40px;
             font-family: "Microsoft YaHei";
-            color: #ffffff; }
+            color: #ffffff;
+            cursor: pointer; }
         html .box .interior .content .footer, body .box .interior .content .footer {
           width: 100%;
           height: 52px;
           position: relative;
-          postion: absloute;
-          bottom: 0px;
+          bottom: 0;
           background: url("../img/foot.png");
           background-repeat: no-repeat; }
           html .box .interior .content .footer .foot_left, body .box .interior .content .footer .foot_left {

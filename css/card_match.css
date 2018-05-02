@@ -3,6 +3,12 @@ html, body {
   margin: 0;
   font-family: "Microsoft YaHei"; }
 
+a {
+  text-decoration: none; }
+
+img {
+  border: none; }
+
 html, body {
   width: 100%;
   height: 100%; }
@@ -84,41 +90,52 @@ html, body {
           margin: 40px auto 0px;
           overflow: hidden; }
           html .box .interior .content .main .main_picture, body .box .interior .content .main .main_picture {
-            width: 1000px;
-            height: 350px;
-            margin: 100px auto; }
-            html .box .interior .content .main .main_picture .mainLicenses, html .box .interior .content .main .main_picture .mainCard, body .box .interior .content .main .main_picture .mainLicenses, body .box .interior .content .main .main_picture .mainCard {
-              width: 480px;
-              height: 350px;
-              background: url("../img/certificate.png");
-              float: left;
-              position: relative; }
-              html .box .interior .content .main .main_picture .mainLicenses .mafont, html .box .interior .content .main .main_picture .mainCard .mafont, body .box .interior .content .main .main_picture .mainLicenses .mafont, body .box .interior .content .main .main_picture .mainCard .mafont {
-                width: 100%;
-                height: 50px;
-                text-align: center;
-                line-height: 50px;
-                font-family: "Microsoft YaHei";
-                color: #ffffff;
-                font-size: 24px;
-                position: absolute;
-                top: 0;
-                left: 0; }
-              html .box .interior .content .main .main_picture .mainLicenses .licensesCard, html .box .interior .content .main .main_picture .mainCard .licensesCard, body .box .interior .content .main .main_picture .mainLicenses .licensesCard, body .box .interior .content .main .main_picture .mainCard .licensesCard {
-                width: 468px;
-                height: 294px;
-                position: absolute;
-                top: 50px;
-                left: 6px; }
-            html .box .interior .content .main .main_picture .mainCard, body .box .interior .content .main .main_picture .mainCard {
+            width: 780px;
+            height: 580px;
+            margin: 30px auto; }
+            html .box .interior .content .main .main_picture .mapic_left, html .box .interior .content .main .main_picture .mapic_right, body .box .interior .content .main .main_picture .mapic_left, body .box .interior .content .main .main_picture .mapic_right {
+              width: 380px;
+              height: 580px;
+              float: left; }
+              html .box .interior .content .main .main_picture .mapic_left .blicense, html .box .interior .content .main .main_picture .mapic_left .realNameCard, html .box .interior .content .main .main_picture .mapic_left .authouization, html .box .interior .content .main .main_picture .mapic_left .agentCard, html .box .interior .content .main .main_picture .mapic_right .blicense, html .box .interior .content .main .main_picture .mapic_right .realNameCard, html .box .interior .content .main .main_picture .mapic_right .authouization, html .box .interior .content .main .main_picture .mapic_right .agentCard, body .box .interior .content .main .main_picture .mapic_left .blicense, body .box .interior .content .main .main_picture .mapic_left .realNameCard, body .box .interior .content .main .main_picture .mapic_left .authouization, body .box .interior .content .main .main_picture .mapic_left .agentCard, body .box .interior .content .main .main_picture .mapic_right .blicense, body .box .interior .content .main .main_picture .mapic_right .realNameCard, body .box .interior .content .main .main_picture .mapic_right .authouization, body .box .interior .content .main .main_picture .mapic_right .agentCard {
+                width: 380px;
+                height: 280px;
+                position: relative;
+                background: url("../img/certificate2.png");
+                background-repeat: no-repeat; }
+                html .box .interior .content .main .main_picture .mapic_left .blicense .head_title, html .box .interior .content .main .main_picture .mapic_left .realNameCard .head_title, html .box .interior .content .main .main_picture .mapic_left .authouization .head_title, html .box .interior .content .main .main_picture .mapic_left .agentCard .head_title, html .box .interior .content .main .main_picture .mapic_right .blicense .head_title, html .box .interior .content .main .main_picture .mapic_right .realNameCard .head_title, html .box .interior .content .main .main_picture .mapic_right .authouization .head_title, html .box .interior .content .main .main_picture .mapic_right .agentCard .head_title, body .box .interior .content .main .main_picture .mapic_left .blicense .head_title, body .box .interior .content .main .main_picture .mapic_left .realNameCard .head_title, body .box .interior .content .main .main_picture .mapic_left .authouization .head_title, body .box .interior .content .main .main_picture .mapic_left .agentCard .head_title, body .box .interior .content .main .main_picture .mapic_right .blicense .head_title, body .box .interior .content .main .main_picture .mapic_right .realNameCard .head_title, body .box .interior .content .main .main_picture .mapic_right .authouization .head_title, body .box .interior .content .main .main_picture .mapic_right .agentCard .head_title {
+                  width: 380px;
+                  height: 48px;
+                  text-align: center;
+                  line-height: 48px;
+                  font-size: 18px;
+                  color: #ffffff;
+                  position: absolute;
+                  top: 0;
+                  left: 0; }
+                html .box .interior .content .main .main_picture .mapic_left .blicense .certificate_box, html .box .interior .content .main .main_picture .mapic_left .realNameCard .certificate_box, html .box .interior .content .main .main_picture .mapic_left .authouization .certificate_box, html .box .interior .content .main .main_picture .mapic_left .agentCard .certificate_box, html .box .interior .content .main .main_picture .mapic_right .blicense .certificate_box, html .box .interior .content .main .main_picture .mapic_right .realNameCard .certificate_box, html .box .interior .content .main .main_picture .mapic_right .authouization .certificate_box, html .box .interior .content .main .main_picture .mapic_right .agentCard .certificate_box, body .box .interior .content .main .main_picture .mapic_left .blicense .certificate_box, body .box .interior .content .main .main_picture .mapic_left .realNameCard .certificate_box, body .box .interior .content .main .main_picture .mapic_left .authouization .certificate_box, body .box .interior .content .main .main_picture .mapic_left .agentCard .certificate_box, body .box .interior .content .main .main_picture .mapic_right .blicense .certificate_box, body .box .interior .content .main .main_picture .mapic_right .realNameCard .certificate_box, body .box .interior .content .main .main_picture .mapic_right .authouization .certificate_box, body .box .interior .content .main .main_picture .mapic_right .agentCard .certificate_box {
+                  width: 168px;
+                  height: 186px;
+                  padding-top: 40px;
+                  padding-left: 80px;
+                  position: absolute;
+                  top: 48px;
+                  left: 6px; }
+                html .box .interior .content .main .main_picture .mapic_left .blicense .autPer, html .box .interior .content .main .main_picture .mapic_left .realNameCard .autPer, html .box .interior .content .main .main_picture .mapic_left .authouization .autPer, html .box .interior .content .main .main_picture .mapic_left .agentCard .autPer, html .box .interior .content .main .main_picture .mapic_right .blicense .autPer, html .box .interior .content .main .main_picture .mapic_right .realNameCard .autPer, html .box .interior .content .main .main_picture .mapic_right .authouization .autPer, html .box .interior .content .main .main_picture .mapic_right .agentCard .autPer, body .box .interior .content .main .main_picture .mapic_left .blicense .autPer, body .box .interior .content .main .main_picture .mapic_left .realNameCard .autPer, body .box .interior .content .main .main_picture .mapic_left .authouization .autPer, body .box .interior .content .main .main_picture .mapic_left .agentCard .autPer, body .box .interior .content .main .main_picture .mapic_right .blicense .autPer, body .box .interior .content .main .main_picture .mapic_right .realNameCard .autPer, body .box .interior .content .main .main_picture .mapic_right .authouization .autPer, body .box .interior .content .main .main_picture .mapic_right .agentCard .autPer {
+                  padding-top: 28px;
+                  padding-left: 100px; }
+              html .box .interior .content .main .main_picture .mapic_left .realNameCard, html .box .interior .content .main .main_picture .mapic_left .agentCard, html .box .interior .content .main .main_picture .mapic_right .realNameCard, html .box .interior .content .main .main_picture .mapic_right .agentCard, body .box .interior .content .main .main_picture .mapic_left .realNameCard, body .box .interior .content .main .main_picture .mapic_left .agentCard, body .box .interior .content .main .main_picture .mapic_right .realNameCard, body .box .interior .content .main .main_picture .mapic_right .agentCard {
+                margin-top: 20px; }
+            html .box .interior .content .main .main_picture .mapic_right, body .box .interior .content .main .main_picture .mapic_right {
               float: right; }
-          html .box .interior .content .main .affirm, body .box .interior .content .main .affirm {
+          html .box .interior .content .main #affirm, body .box .interior .content .main #affirm {
             width: 260px;
             height: 40px;
             text-align: center;
             line-height: 40px;
-            background-color: #FFA500;
+            background-color: #f49e17;
             margin: 25px auto 40px;
+            cursor: pointer;
             font-family: "Microsoft YaHei";
             color: #ffffff; }
         html .box .interior .content .footer, body .box .interior .content .footer {
